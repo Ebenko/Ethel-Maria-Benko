@@ -62,8 +62,6 @@
     text-align: center;
     margin-top: 50%;
 
-
-
 }
 
 .Initial h{
@@ -80,5 +78,27 @@
 .Initial h2{
     margin-top: 25%;
     cursor: pointer;
+}
 
+.card-icon-link{
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.card-icon-link:hover{
+    border: 1px solid blue;
+}
+
+.card-icon{
+    font-size: 20px;
+    color: white;
+    transition: color .3s;
+}
+
+.card-icon-link:hover .card-icon{
+    color: blue;
 }
