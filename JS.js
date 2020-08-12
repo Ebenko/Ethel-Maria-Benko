@@ -11,8 +11,7 @@ document.querySelector('.card-btn').addEventListener
     document.querySelector('.x-btn')
         .style.cssText = 'opacity: 1; visibility: visible';
 
-    document.querySelector('.card-wrapper')
-         .style.background= '#292929';
+    document.querySelector('.card-wrapper');
 
 
 });
@@ -36,13 +35,20 @@ document.querySelector('.x-btn').addEventListener(
 });
 
 /*click Full CV*/
-document.querySelector('.full-cv-btn').addEventListener
+
+window.addEventListener('load', function() {
+    document.querySelector('.full-cv-btn').addEventListener
 ('click', ()=> {
     document.querySelector('.card-wrapper')
     .style.display = 'none';
 
     document.querySelector('.full-cv')
     .style.cssText = 'opacity: 1; visibility: visible';
+
+    document.querySelector('.slideshow')
+    .style.animation = 'slideshow 20s infinite';
+});
+
 });
 
 /*click back-btn*/
@@ -77,3 +83,5 @@ document.querySelector('.back-btn2').addEventListener(
     .style.background= '#292929';
 
 });
+
+
