@@ -148,13 +148,14 @@ document.querySelector('.back-btn2').addEventListener(
 
 });
 
-/*click email icon*/
+
+/*click email icon
 document.querySelector('.email').addEventListener
 ('click', ()=> {
 
     document.querySelector('.email-popup')
         .style.cssText = 'opacity: 1; visibility: visible';
-});
+});*/
 
 
 /*click back-btn8*/
