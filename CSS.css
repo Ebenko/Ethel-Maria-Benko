@@ -651,8 +651,12 @@ color: #f7ec3c;
     border-radius: 1%;
     position: fixed;
     background-color: white;
-    text-align: center;
-    width: 700px;
+    text-align: left;
+    line-height: 160%;
+    font-size: 15px;
+    color: #525252;
+    font-family: 'Roboto', sans-serif;
+    width: 800px;
     height: 550px;
     /*top: 90%;
     left: 50%;
@@ -661,18 +665,43 @@ color: #f7ec3c;
     left: 50%;
     transform: translate(-50%,-50%);
     box-shadow: 0 0 60px #424137;
+    padding: 3%;
 }
-/*
+
+.vf-details{
+    height: 400px;
+}
+
+.ice-details{
+    height: 280px;
+}
+
+.abbott-details{
+    height: 450px;
+}
+
+.nuskin-details{
+    width: 630px;
+}
+
 .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1{
     font-size: 18px;
-    letter-spacing: 5px;
-    line-height: 150%;
+    letter-spacing: 3px;
+    line-height: 180%;
 }
 
 ul{
-    margin-top: 5px;
-    padding: 3%;
-}*/
+    margin-top: 3px;
+    padding: 2.5%;
+    line-height: 170%;
+}
+
+li{
+    padding: 6px;
+    color: #2e2e2e;
+}
+
+
 /*
 .blk-details{
     top: 73%;
@@ -809,10 +838,10 @@ ul{
     text-align: center;
     justify-content: center;
 }
-/*
+
 .back-btn:hover, .back-btn2:hover, .back-btn3:hover, .back-btn4:hover, .back-btn5:hover, .back-btn6:hover, .back-btn7:hover, .back-btn8:hover{
     color: #f7ec3c;
-}*/
+}
 
 
 
