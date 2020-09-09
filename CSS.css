@@ -582,6 +582,12 @@ color: #f7ec3c;
     background-color: white;
 }
 
+.jobs h4{
+    font-size: 15px;
+    color: #908d78;
+    font-weight: lighter;
+}
+
 .blk img{
     width: 200px;
     height: 73px;

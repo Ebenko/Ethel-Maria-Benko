@@ -158,7 +158,7 @@ document.querySelector('.email').addEventListener
 });*/
 
 
-/*click back-btn8*/
+/*click back-btn8
 document.querySelector('.back-btn8').addEventListener(
     'click', ()=> {
         document.querySelector('.email-popup')
@@ -167,7 +167,7 @@ document.querySelector('.back-btn8').addEventListener(
         document.querySelector('.card-wrapper')
             .style.background= '#292929';
 
-    });
+    });*/
 
 
 
