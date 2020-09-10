@@ -585,6 +585,7 @@ color: #f7ec3c;
 }
 
 .jobs h4{
+    width: 150px;
     font-size: 16px;
     color: #484848;
     font-weight: lighter;
