@@ -209,7 +209,7 @@ document.querySelector('.back-btn8').addEventListener(
 
     //BLACKROCK DETAILS:
 
-document.querySelector('#blk-det').addEventListener
+document.querySelector('.blk').addEventListener
 ('click', ()=> {
     document.querySelector('.blk-details')
     .style.cssText = 'opacity: 1; visibility: visible';
@@ -223,7 +223,7 @@ document.querySelector('.back-btn3').addEventListener(
 
     //VODAFONE DETAILS:
 
-document.querySelector('#vf-det').addEventListener
+document.querySelector('.vf').addEventListener
 ('click', ()=> {
     document.querySelector('.vf-details')
     .style.cssText = 'opacity: 1; visibility: visible';
@@ -237,7 +237,7 @@ document.querySelector('.back-btn4').addEventListener(
 
     //ICE DETAILS:
 
-document.querySelector('#ice-det').addEventListener
+document.querySelector('.ice').addEventListener
 ('click', ()=> {
     document.querySelector('.ice-details')
     .style.cssText = 'opacity: 1; visibility: visible';
@@ -251,7 +251,7 @@ document.querySelector('.back-btn5').addEventListener(
 
     //ABBOTT DETAILS:
 
-document.querySelector('#abbott-det').addEventListener
+document.querySelector('.abbott').addEventListener
 ('click', ()=> {
     document.querySelector('.abbott-details')
     .style.cssText = 'opacity: 1; visibility: visible';
@@ -265,7 +265,7 @@ document.querySelector('.back-btn6').addEventListener(
 
     //NU SKIN DETAILS:
 
-document.querySelector('#nuskin-det').addEventListener
+document.querySelector('.nuskin').addEventListener
 ('click', ()=> {
     document.querySelector('.nuskin-details')
     .style.cssText = 'opacity: 1; visibility: visible';
