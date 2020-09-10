@@ -1,4 +1,31 @@
 
+window.onbeforeunload = function () {
+    window.scrollTo(0,0);
+};
+
+
+/*
+if (window.cvPage.reload(true)){
+    cvPage.scrollTo(0,0)
+}
+
+cvPage.addEventListener('onbeforeunload', function() {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+});
+
+
+const cvPage = document.querySelector('.full-cv');
+
+window.onscroll = function() {scrollFunction()};
+
+cvPage.onbeforeunload = function () {
+    cvPage.scrollTo(0,0);
+};*/
+
 /*click handle*/
 document.querySelector('.card-btn').addEventListener
 ('click', ()=> {
@@ -49,8 +76,7 @@ window.addEventListener('load', function(){
     .style.cssText = 'overflow: auto';
 
     document.querySelector('.full-cv')
-    .style.cssText = 'opacity: 1; visibility: visible'
-;
+    .style.cssText = 'opacity: 1; visibility: visible';
 
     document.querySelector('.slideshow')
     .style.animation = 'slideshow 20s infinite';
@@ -70,6 +96,16 @@ document.querySelector('.logo').addEventListener(
 
     document.querySelector('.card-wrapper')
     .style.background= '#292929';
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
 
 /*click back-btn to top*/
