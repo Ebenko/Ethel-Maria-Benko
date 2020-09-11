@@ -5,12 +5,13 @@
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("pictures/Forest.jpg") no-repeat center;
     width: 100%;
     height: 100vh;
-    /*top: 0;
-    width: 100%;
-    height: 100vh;*/
+    /*top: 0;*/
 }
 
-body {overflow: hidden}
+body {
+    overflow: hidden;
+    /*min-height: 100%;*/
+}
 
 .card-wrapper{
     /*visibility: hidden;
@@ -31,6 +32,7 @@ body {overflow: hidden}
 *{
     margin: 0;
     padding: 0;
+
 }
 
 /*html { height: 100%; overflow: hidden }
@@ -148,8 +150,6 @@ body { height: 100%; overflow: hidden}*/
     line-height: 180%;
 }
 
-
-
 .contact-icons{
      opacity: 0;
      visibility: hidden;
@@ -247,6 +247,8 @@ body { height: 100%; overflow: hidden}*/
     color: #4e4e4e;
     transition: opacity 2s;
     position: absolute;
+    padding-bottom: -500px;
+
 }
 
 .header{
@@ -288,10 +290,10 @@ body { height: 100%; overflow: hidden}*/
 }
 
 .pdf{
-    margin-top: 3.2%;
+    margin-top: 3%;
     display: flex;
     position: relative;
-    margin-left: 50%;
+    margin-left: 52%;
     height: 30px;
     cursor: pointer;
     transition: opacity .5s;
@@ -299,7 +301,7 @@ body { height: 100%; overflow: hidden}*/
 
 .pdf-icon{
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     transition: color .7s;
 }
 
@@ -329,9 +331,10 @@ body { height: 100%; overflow: hidden}*/
 }
 
 .menu{
-    margin-top: 3%;
-    margin-right: 3%;
-    font-size: 30px;
+    margin-top: 1.5%;
+    margin-right: 2%;
+    font-size: 35px;
+    padding: 20px 20px 0 20px;
     cursor: pointer;
     color: white;
     transition: opacity 0.5s, color .4s, visibility .5s;
@@ -355,7 +358,7 @@ body { height: 100%; overflow: hidden}*/
     display: block;
     border-radius: 2%;
     padding: 5px;
-    margin-top: 10px;
+    margin-top: 3px;
     z-index: 50;
     background-color: black;
     font-weight: bold;
@@ -373,13 +376,13 @@ body { height: 100%; overflow: hidden}*/
     visibility: visible;
 }
 
-.menu-introduction, .menu-experience, .menu-education, .menu-tech, .menu-contact{
-    transition: opacity .2s, background-color 0.3s;
+.menu-introduction, .menu-experience, .menu-education, .menu-tech, .menu-communication, .menu-language, .menu-contact{
+    transition: opacity .1s, background-color .1s;
     scroll-behavior: smooth;
 
 }
 
-.menu-introduction:hover, .menu-experience:hover, .menu-education:hover, .menu-tech:hover, .menu-contact:hover{
+.menu-introduction:hover, .menu-experience:hover, .menu-education:hover, .menu-tech:hover, .menu-communication:hover, .menu-language:hover, .menu-contact:hover{
     background-color: #4e4e4e;
     border-radius: 2%;
 }
@@ -530,12 +533,10 @@ color: #f7ec3c;
 
 .cv-intro{
     width: inherit;
-    height: 210px;
+    height: 230px;
     display: block;
     background-color: white;
     padding: 4%;
-
-
 }
 
 .intro-text{
@@ -544,6 +545,8 @@ color: #f7ec3c;
     font-size: 20px;
     color: #4e4e4e;
     line-height: 180%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .intro-text2{
@@ -552,7 +555,9 @@ color: #f7ec3c;
     font-size: 20px;
     color: #4e4e4e;
     line-height: 180%;
-    margin-top:20px;
+    margin-top:25px;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 
@@ -572,11 +577,11 @@ color: #f7ec3c;
 }
 
 .jobs{
-    height: 330px;
+    height: 340px;
     position: relative;
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 15px;
     align-items: center;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -585,8 +590,8 @@ color: #f7ec3c;
 }
 
 .jobs h4{
-    width: 150px;
-    font-size: 16px;
+    width: 170px;
+    font-size: 15px;
     color: #484848;
     font-weight: lighter;
     margin-top: 2px;
@@ -762,7 +767,7 @@ li{
     display: block;
     background-color: #acacac;
     text-align: center;
-    padding: 30px;
+    padding: 50px;
     color: #464646;
 }
 
@@ -770,7 +775,7 @@ li{
     font-size: 50px;
     letter-spacing: 6px;
     font-weight: lighter;
-    top: 20px;
+    top: 25px;
 }
 
 .education ul{
@@ -787,7 +792,7 @@ li{
 
 .tech{
     text-align: center;
-    padding: 30px;
+    padding: 40px;
     background-color: white;
 }
 
@@ -795,18 +800,16 @@ li{
     font-size: 50px;
     letter-spacing: 6px;
     font-weight: lighter;
-    top: 20px;
+    top: 30px;
 }
 
 .tech li{
     list-style-type: none;
     margin-top: 5px;
     font-size: 20px;
-
 }
 
 .communication{
-
     padding: 35px;
     background-color: rgba(136, 99, 159, 0.58);
     display: flex;
@@ -843,16 +846,17 @@ li{
 }
 
 .language{
+    height: 300px;
     text-align: center;
-    padding: 30px;
+    padding: 50px;
     background-color: white;
+    justify-content: center;
 }
 
 .language h1{
     font-size: 50px;
     letter-spacing: 6px;
     font-weight: lighter;
-    top: 20px;
 }
 
 .language li{
@@ -862,32 +866,127 @@ li{
 }
 
 .contact{
-    height: 300px;
+    height: 350px;
     background-color: #acacac;
-    text-align: center;
-    padding: 30px;
+    position: center;
+    padding: 50px;
 }
 
 .contact h1{
     font-size: 50px;
     letter-spacing: 6px;
     font-weight: lighter;
-    top: 20px;
+    text-align: center;
 }
 
-.contact li{
+.phone, .e-mail, .current-loc, .permit{
     list-style-type: none;
     margin-top: 5px;
     font-size: 20px;
+    text-align: left;
+    margin-left: 35%;
+
 }
 
+.swiss-number{
+    margin-left: 47%;
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+
 .bottom-map{
-    height: 400px;
+    height: 300px;
     display: block;
     background-color: black;
     color: white;
-    text-align: center;
     padding: 20px;
+}
+
+.map-main{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    line-height: 250%;
+    text-align: left;
+
+}
+
+.map-introduction, .map-experience, .map-education, .map-tech, .map-communication, .map-language, .map-contact{
+    color: white;
+    display: block;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.map-introduction:hover, .map-experience:hover, .map-education:hover, .map-tech:hover, .map-communication:hover, .map-language:hover, .map-contact:hover{
+    color: #f7ec3c;
+}
+
+.map-socialmedia{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#email-map{
+    margin-top: -4px;
+}
+
+.card-icon-link2{
+    text-decoration: none;
+    width: 38px;
+    height: 38px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    transition: border 0.1s;
+    cursor: pointer;
+}
+
+.card-icon-link2:hover{
+    border: 1px solid dodgerblue;
+}
+
+.card-icon2{
+    font-size: 30px;
+    color: white;
+    transition: color 1s;
+    align-items: center;
+    justify-items: center;
+    top: 3.2%;
+    left: 3.2%;
+}
+
+.card-icon-link2:hover .card-icon2{
+    color: dodgerblue;
+}
+
+.email2{
+    color: white;
+    font-size: 43px;
+    cursor: pointer;
+    transition: color 0.8s;
+    margin-top: 2%;
+}
+
+.email2:hover {
+    color: #D44638;
+}
+
+.pdf-icon2{
+    color: white;
+    font-size: 38px;
+    transition: color .7s;
+}
+
+.pdf-icon2:hover{
+    color: rgba(212, 0, 0, 0.69);
 }
 
 .back-btn3 , .back-btn4, .back-btn5 , .back-btn6, .back-btn7, .back-btn8{
