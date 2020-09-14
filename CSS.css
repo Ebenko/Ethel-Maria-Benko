@@ -116,8 +116,8 @@ body { height: 100%; overflow: hidden}*/
     position: absolute;
     background-color: grey;
     width: 750px;
-    height: 250px;
-    top: 50%;
+    height: 270px;
+    top: 48%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -161,6 +161,11 @@ body { height: 100%; overflow: hidden}*/
      margin-left: 37%;
      margin-right: 37%;
  }
+
+.pdf-card{
+    margin-top: -1.2%;
+
+}
 
 .card-icon-link{
     text-decoration: none;
@@ -255,7 +260,7 @@ body { height: 100%; overflow: hidden}*/
     display: flex;
     background-color: #2d2d2d;
     width: 100%;
-    height: 14vh;
+    height: 165px;
     justify-content: space-between;
 }
 
@@ -290,18 +295,18 @@ body { height: 100%; overflow: hidden}*/
 }
 
 .pdf{
-    margin-top: 3%;
+    margin-top: 2.4%;
     display: flex;
     position: relative;
-    margin-left: 52%;
-    height: 30px;
+    margin-left: 65%;
+    height: 35px;
     cursor: pointer;
     transition: opacity .5s;
 }
 
 .pdf-icon{
     color: white;
-    font-size: 35px;
+    font-size: 32px;
     transition: color .7s;
 }
 
@@ -319,7 +324,7 @@ body { height: 100%; overflow: hidden}*/
     text-align: center;
     width: 95px;
     margin-top: 40px;
-    margin-left: -65px;
+    margin-left: -63px;
     font-family: 'Roboto', sans-serif;
     border: 1px solid white;
     border-radius: 3%;
@@ -452,7 +457,7 @@ color: #f7ec3c;
 
 .slide{
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 
 .slide:nth-child(1){
@@ -507,28 +512,27 @@ color: #f7ec3c;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 1% 11.5%;
-    max-width: 50em;
+    max-width: 100em;
 }
 
 .promo-title {
     display: inline-block;
-    padding: .6em 1.5em;
+    padding: .8em 1.5em;
     font-size: 2em;
     background: hsla(0, 0%, 100%, .75);
-    width: 90%;
+
 }
 
 .promo-lede {
-    padding: 1.2em 2em;
+    padding: .8em 1.5em .8em 2.5em;
     font-size: 1.8em;
     color: #FFFCED;
-    text-shadow: 1px 1px 3px hsla(277, 47%, 40%, .85);
-    background: hsla(277, 47%, 66%, .85);
+    text-shadow: 1px 1px 3px hsla(277, 47%, 40%, .75);
+    background: hsla(277, 47%, 66%, .75);
     margin-top: -.5em;
     margin-left: 40%;
-    text-align: right;
-    width: 90%;
     margin-bottom: 3%;
+    display: inline-block;
 }
 
 .cv-intro{
@@ -537,28 +541,29 @@ color: #f7ec3c;
     display: block;
     background-color: white;
     padding: 4%;
+    position: center;
 }
 
 .intro-text{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 21px;
     color: #4e4e4e;
     line-height: 180%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -20px;
 }
 
 .intro-text2{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 21px;
     color: #4e4e4e;
     line-height: 180%;
     margin-top:25px;
-    margin-left: 10%;
-    margin-right: 10%;
-
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .experience{
@@ -580,6 +585,7 @@ color: #f7ec3c;
     height: 340px;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 15px;
     align-items: center;
@@ -602,6 +608,7 @@ color: #f7ec3c;
     padding: 40px;
     border: 3px solid transparent;
     transition: opacity .3s,  border .4s, box-shadow .5s;
+    flex-shrink: 0;
 }
 
 .blk:hover, .vf:hover, .ice:hover, .abbott:hover, .nuskin:hover{
@@ -614,6 +621,7 @@ color: #f7ec3c;
     height: 68px;
     margin-top: 15%;
     margin-bottom: 12%;
+    flex-shrink: 0;
 }
 
 .blk h4{
@@ -626,6 +634,7 @@ color: #f7ec3c;
     margin-top: 3%;
     margin-bottom: 8%;
     margin-left: -22%;
+    flex-shrink: 0;
 }
 
 .vf h4{
@@ -638,6 +647,7 @@ color: #f7ec3c;
     margin-top: 1%;
     margin-bottom: 9%;
     margin-left: -20%;
+    flex-shrink: 0;
 }
 
 .abbott img{
@@ -645,6 +655,7 @@ color: #f7ec3c;
     height: 120px;
     margin-left: -19%;
     margin-bottom: -1%;
+    flex-shrink: 0;
 }
 
 .nuskin img{
@@ -653,6 +664,7 @@ color: #f7ec3c;
     margin-top: 8%;
     margin-bottom: 13%;
     margin-left: -8%;
+    flex-shrink: 0;
 }
 
 /*
@@ -810,7 +822,7 @@ li{
 }
 
 .communication{
-    padding: 35px;
+    padding: 40px;
     background-color: rgba(136, 99, 159, 0.58);
     display: flex;
     justify-content: space-around;
@@ -823,6 +835,7 @@ li{
 
 .pic-left{
     opacity: .3;
+    margin-left: -70px;
 }
 
 .pic-right{
@@ -834,11 +847,12 @@ li{
     letter-spacing: 6px;
     text-align: center;
     color: white;
+    margin-top: 10px;
 }
 
 .communication li{
     list-style-type: none;
-    margin-top: 3px;
+    margin-top: 4px;
     font-size: 20px;
     color: white;
     text-align: center;
@@ -850,26 +864,42 @@ li{
     text-align: center;
     padding: 50px;
     background-color: white;
-    justify-content: center;
+
 }
 
 .language h1{
     font-size: 50px;
     letter-spacing: 6px;
     font-weight: lighter;
+    padding: 0;
+}
+
+.language ul{
+    margin-top: -20px;
 }
 
 .language li{
     list-style-type: none;
-    margin-top: 5px;
+    line-height: 160%;
     font-size: 20px;
 }
 
 .contact{
     height: 350px;
     background-color: #acacac;
-    position: center;
     padding: 50px;
+    margin: auto;
+    position: relative;
+
+}
+
+.contact-orientation{
+    width: 390px;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
 }
 
 .contact h1{
@@ -877,22 +907,26 @@ li{
     letter-spacing: 6px;
     font-weight: lighter;
     text-align: center;
+    margin-right: 10px;
+}
+
+.contact-info{
+    margin-top: 50px;
 }
 
 .phone, .e-mail, .current-loc, .permit{
     list-style-type: none;
     margin-top: 5px;
     font-size: 20px;
-    text-align: left;
-    margin-left: 35%;
 
 }
 
 .swiss-number{
-    margin-left: 47%;
+    text-align: right;
     list-style-type: none;
     font-size: 20px;
     margin-top: -10px;
+    margin-right: 13px;
 }
 
 
