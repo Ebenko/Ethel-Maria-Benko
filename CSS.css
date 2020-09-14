@@ -115,13 +115,13 @@ body { height: 100%; overflow: hidden}*/
     border-radius: 10px;
     position: absolute;
     background-color: grey;
-    width: 750px;
-    height: 270px;
+    width: 800px;
+    height: 280px;
     top: 48%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    padding: 5px;
+    padding: 15px;
     color: white;
 }
 
@@ -163,14 +163,14 @@ body { height: 100%; overflow: hidden}*/
  }
 
 .pdf-card{
-    margin-top: -1.2%;
-
+    margin-top: -2.5%;
+    height: 30px;
 }
 
 .card-icon-link{
     text-decoration: none;
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     border: 1px solid white;
     display: flex;
     justify-content: center;
@@ -185,7 +185,7 @@ body { height: 100%; overflow: hidden}*/
 }
 
 .card-icon{
-    font-size: 21px;
+    font-size: 23px;
     color: white;
     transition: color 1s;
     align-items: center;
@@ -834,12 +834,15 @@ li{
 }
 
 .pic-left{
-    opacity: .3;
-    margin-left: -70px;
+    opacity: .2;
+    flex-shrink: 0;
+    margin-left: -150px;
 }
 
 .pic-right{
-    opacity: .3;
+    opacity: .2;
+    flex-shrink: 0;
+    margin-right: -140px;
 }
 
 .communication h1{
@@ -1081,6 +1084,109 @@ li{
     color: #f7ec3c;
 }
 
+/*RESPONSIVE WEB*/
 
+@media only screen and (max-width: 2105px){
+    .cv-intro{
+        height: 260px;
+    }
 
+    .intro-text{
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+
+    .intro-text2{
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+}
+
+@media only screen and (max-width: 2070px){
+    .cv-intro{
+        height: 300px;
+    }
+
+    .intro-text{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .intro-text2{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .pdf{
+        margin-top: 2.6%;
+    }
+}
+
+@media only screen and (max-width: 1805px){
+    .intro-text{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .intro-text2{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .pdf{
+        margin-top: 2.8%;
+        margin-left: 55%;
+    }
+
+    .pic-left{
+        margin-left: -100px;
+    }
+
+    .pic-right{
+        margin-right: -100px;
+    }
+
+    .intro-text{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 1580px){
+    .intro-text{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .intro-text2{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .logo-name {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .pdf{
+        margin-top: 4.5%;
+        margin-left: 50%;
+    }
+
+    .menu {
+        margin-top: 3%;
+        margin-right: 2.3%;
+    }
+
+    .sub-menu{
+        margin-top: 10px;
+    }
+
+    .pic-left{
+        margin-left: -50px;
+    }
+
+    .pic-right{
+        margin-right: -50px;
+    }
+}
 
