@@ -2,7 +2,7 @@
 
 .container{
     font-family: 'Josefin Sans', sans-serif;
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("pictures/Forest.jpg") no-repeat center;
+    background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10,10,10,0.7)), url("pictures/Mont.jpg") no-repeat center;
     width: 100%;
     height: 100vh;
     /*top: 0;*/
@@ -23,7 +23,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("pictures/Forest.jpg") no-repeat center;
+    background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7)), url("pictures/Mont.jpg") no-repeat center;
     border-radius: 5px;
     transition: box-shadow 1.5s, opacity 2s;;
     overflow: hidden;
@@ -39,7 +39,7 @@ body {
 body { height: 100%; overflow: hidden}*/
 
 .card-wrapper:hover{
-    box-shadow: 0 0 50px white;
+    box-shadow: 0 0 70px white;
 }
 
 .card-btn{
@@ -1188,5 +1188,63 @@ li{
     .pic-right{
         margin-right: -50px;
     }
+
+    .communication img{
+        transform: scale(0.9);
+    }
+
+    .communication {
+        padding: 30px;
+    }
+
+    .intro-text{
+        margin-top: 15px;
+    }
 }
 
+@media only screen and (max-width: 1410px) {
+    .intro-text {
+        font-size: 19px;
+    }
+
+    .intro-text2 {
+        font-size: 19px;
+    }
+
+    .intro-text{
+        margin-top: 25px;
+    }
+
+    .communication img{
+        transform: scale(0.8);
+    }
+
+    .communication {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1270px) {
+    .intro-text {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .intro-text2 {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .cv-intro {
+        height: 300px;
+    }
+
+    .pic-left{
+        margin-left: 20px;
+    }
+
+    .pic-right{
+        margin-right: 20px;
+    }
+
+}

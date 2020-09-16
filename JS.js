@@ -58,7 +58,7 @@ document.querySelector('.x-btn').addEventListener(
     .style.cssText = 'opacity: 0; visibility: hidden';
 
     document.querySelector('.card-wrapper')
-    .style.cssText = 'background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("pictures/Forest.jpg") no-repeat center;';
+    .style.cssText = 'background: linear-gradient(rgba(10,10,10,.7), rgba(10,10,10,.7)), url("pictures/Mont.jpg") no-repeat center;';
 
 });
 
