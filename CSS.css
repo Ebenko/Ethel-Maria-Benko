@@ -537,7 +537,7 @@ color: #f7ec3c;
 
 .cv-intro{
     width: inherit;
-    height: 230px;
+    height: auto;
     display: block;
     background-color: white;
     padding: 4%;
@@ -582,17 +582,16 @@ color: #f7ec3c;
 }
 
 .jobs{
-    height: 340px;
+    height: auto;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 15px;
+    padding: 45px;
     align-items: center;
-    margin-top: 0%;
-    margin-bottom: 0%;
     font-size: 20px;
     background-color: white;
+    margin: 0 auto;
 }
 
 .jobs h4{
@@ -604,11 +603,13 @@ color: #f7ec3c;
 }
 
 .blk, .vf, .ice, .abbott, .nuskin {
+    display: block;
     cursor: pointer;
     padding: 40px;
     border: 3px solid transparent;
     transition: opacity .3s,  border .4s, box-shadow .5s;
     flex-shrink: 0;
+
 }
 
 .blk:hover, .vf:hover, .ice:hover, .abbott:hover, .nuskin:hover{
@@ -663,7 +664,7 @@ color: #f7ec3c;
     height: 90px;
     margin-top: 8%;
     margin-bottom: 13%;
-    margin-left: -8%;
+    margin-left: -7%;
     flex-shrink: 0;
 }
 
@@ -1224,29 +1225,106 @@ li{
     .communication {
         padding: 20px;
     }
+    .blk, .vf, .ice, .abbott, .nuskin {
+        transform: scale(1.1);
+        padding: 60px;
+        margin: 30px;
+    }
+
+    .jobs{
+        padding: 15px;
+    }
+
+    .blk-details, .vf-details, .ice-details, .abbott-details, .nuskin-details{
+        z-index: 50;
+    }
+
 }
 
 @media only screen and (max-width: 1270px) {
-    .intro-text {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-
-    .intro-text2 {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
 
     .cv-intro {
         height: 300px;
     }
 
-    .pic-left{
-        margin-left: 20px;
+    .communication img{
+        transform: scale(0.7);
     }
 
-    .pic-right{
-        margin-right: 20px;
+    .communication h1 {
+        margin-top: 15px;
     }
 
+    .intro-text{
+        margin-left: 15%;
+        margin-right: 15%;
+        line-height: 200%;
+        margin-top: -50px
+    }
+
+    .intro-text2{
+        margin-left: 17%;
+        margin-right: 17%;
+        line-height: 200%;
+    }
+
+    .cv-intro{
+        padding: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 1190px) {
+
+    .communication img {
+        transform: scale(0.6);
+    }
+
+    .communication h1 {
+        margin-top: 20px;
+    }
+
+    .cv-intro{
+        padding: 10% 15% 15% 15%;
+    }
+
+    .pdf{
+        margin-top: 5%;
+        margin-left: 45%;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+
+    .intro-text{
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    .intro-text2{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .communication img{
+        transform: scale(0.5);
+        justify-content: space-evenly;
+    }
+
+    .communication {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1040px){
+
+    .communication img {
+        transform: scale(0.4);
+    }
+
+    .pdf{
+        margin-top: 5.5%;
+        margin-left: 40%;
+    }
 }
