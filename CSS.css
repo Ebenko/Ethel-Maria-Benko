@@ -25,7 +25,7 @@ body {
     transform: translate(-50%,-50%);
     background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("pictures/Forest.jpg") no-repeat center;
     border-radius: 5px;
-    transition: box-shadow 1.5s, opacity 2s;;
+    transition: box-shadow 1.5s, opacity 2s;
     overflow: hidden;
 }
 
@@ -1327,4 +1327,56 @@ li{
         margin-top: 5.5%;
         margin-left: 40%;
     }
+}
+
+/*RESPONSIVE MOBILE*/
+@media only screen and (max-width: 1000px){
+
+    .card-wrapper{
+        height: 950px;
+        width: 650px;
+    }
+
+    .card-btn {
+        font-size: 100px;
+        margin-bottom: 30px;
+        animation: animate 3s infinite;
+        color: yellow;
+        margin-top: 350px;
+        margin-left: 430px;
+    }
+
+    .Initial h{
+        font-size: larger;
+    }
+
+    .x-btn{
+        bottom: 2%;
+        right: 4%;
+        font-size: 30px;
+    }
+
+    .x-btn:hover{
+        font-size: 35px;
+    }
+
+    .short-intro{
+        width: 800px;
+        height: 500px;
+    }
+
+    .short-intro h1 {
+        margin-top: 5%;
+        font-size: 25px;
+    }
+
+    .short-intro-text, .short-intro-text2{
+        font-size: 20px;
+        margin-top: 4%;
+    }
+
+    .back-btn2 {
+        font-size: 20px;
+    }
+
 }
