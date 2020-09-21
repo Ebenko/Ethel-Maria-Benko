@@ -1347,38 +1347,41 @@ li{
     }
 
     .Initial {
-        font-size: 25px;
+        font-size: 30px;
+        margin-top: 40%
     }
 
     .x-btn{
         bottom: 2%;
         right: 4%;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .x-btn:hover{
-        font-size: 35px;
+        font-size: 50px;
     }
 
     .short-intro{
-        width: 830px;
-        height: 700px;
-        padding: 30px;
+        width: 90%;
+        height: 900px;
+        padding: 50px;
         top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
 
     .short-intro h1 {
-        margin-top: 5%;
-        font-size: 30px;
+        margin-top: 7%;
+        font-size: 35px;
     }
 
     .short-intro-text, .short-intro-text2{
-        font-size: 25px;
-        margin-top: 4%;
+        font-size: 30px;
+        margin-top: 5%;
     }
 
     .back-btn2 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .contact-icons{
@@ -1408,5 +1411,61 @@ li{
 
     .email {
         font-size: 70px;
+    }
+
+    .header{
+        height: 230px;
+    }
+
+    .logo-name{
+        margin-top: 5.5%;
+        margin-left: 4%;
+        height: 110px;
+        width: 460px;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    .logo{
+        width: 25%;
+        border: 5px solid blueviolet;
+        padding: 0.5%;
+        border-radius: 50%;
+    }
+
+    .name{
+        font-size: 35px;
+    }
+
+    .pdf{
+        margin-top: 7%;
+        margin-left: 0;
+        margin-right: -20%;
+    }
+
+    .pdf:hover .download-cv{
+        visibility: hidden;
+    }
+
+    .menu{
+        margin-top: 5%;
+        margin-right: 5%;
+        font-size: 60px;
+    }
+
+    .menu-position{
+        margin-left: -130px;
+    }
+
+    .sub-menu{
+        font-size: 25px;
+        width: 230px;
+        border-radius: 2%;
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    .sub-menu a{
+        width: 200px;
     }
 }
