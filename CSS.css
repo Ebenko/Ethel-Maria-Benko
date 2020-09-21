@@ -1342,12 +1342,12 @@ li{
         margin-bottom: 30px;
         animation: animate 3s infinite;
         color: yellow;
-        margin-top: 350px;
+        margin-top: 400px;
         margin-left: 430px;
     }
 
-    .Initial h{
-        font-size: larger;
+    .Initial {
+        font-size: 25px;
     }
 
     .x-btn{
@@ -1361,17 +1361,19 @@ li{
     }
 
     .short-intro{
-        width: 800px;
-        height: 500px;
+        width: 830px;
+        height: 700px;
+        padding: 30px;
+        top: 50%;
     }
 
     .short-intro h1 {
         margin-top: 5%;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .short-intro-text, .short-intro-text2{
-        font-size: 20px;
+        font-size: 25px;
         margin-top: 4%;
     }
 
