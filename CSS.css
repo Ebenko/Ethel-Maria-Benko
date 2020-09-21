@@ -1381,4 +1381,32 @@ li{
         font-size: 20px;
     }
 
+    .contact-icons{
+        margin-top: 20%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .pdf-icon {
+        font-size: 60px;
+    }
+
+    .pdf-card {
+        margin-top: -34px;
+    }
+
+    .card-icon-link {
+        width: 58px;
+        height: 58px;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
+    .card-icon{
+        font-size: 50px;
+    }
+
+    .email {
+        font-size: 70px;
+    }
 }
