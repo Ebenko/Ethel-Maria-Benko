@@ -494,10 +494,6 @@ color: #f7ec3c;
     color: white;
 }
 
-/*  --------------------------------------------------------------
-    Front page promo area
-    --------------------------------------------------------------*/
-
 .promo-content {
     position: absolute;
     display: flex;
@@ -520,7 +516,6 @@ color: #f7ec3c;
     padding: .8em 1.5em;
     font-size: 2em;
     background: hsla(0, 0%, 100%, .75);
-
 }
 
 .promo-lede {
@@ -1468,4 +1463,38 @@ li{
     .sub-menu a{
         width: 200px;
     }
+
+    .slide{
+        height: 800px;
+    }
+
+    .content{
+        width: 500px;
+        top: 5%;
+        left: 5%;
+    }
+
+    .promo-content {
+        top: -100px;
+    }
+
+    .promo-text {
+        max-width: 120em;
+    }
+
+    .promo-title {
+        display: inline-block;
+        padding: .7em 1em;
+        font-size: 2.5em;
+        margin-left: -5%;
+    }
+
+    .promo-lede {
+        padding: .7em 1em .8em 2.5em;
+        font-size: 2.3em;
+        margin-left: 25%;
+        margin-bottom: 3%;
+        margin-right: -25%;
+    }
+
 }
