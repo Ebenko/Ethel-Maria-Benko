@@ -170,6 +170,9 @@ document.querySelector('.introduction-btn').addEventListener
 
     document.querySelector('.short-intro')
     .style.cssText = 'opacity: 1; visibility: visible';
+
+    document.querySelector('.x-btn')
+        .style.display = 'none';
 });
 
 
@@ -181,6 +184,9 @@ document.querySelector('.back-btn2').addEventListener(
 
     document.querySelector('.card-wrapper')
     .style.background= '#292929';
+
+    document.querySelector('.x-btn')
+    .style.cssText = 'opacity: 1; visibility: visible';
 
 });
 

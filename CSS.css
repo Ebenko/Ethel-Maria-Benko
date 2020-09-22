@@ -617,6 +617,7 @@ color: #f7ec3c;
     height: 68px;
     margin-top: 15%;
     margin-bottom: 12%;
+    margin-left: 1%;
     flex-shrink: 0;
 }
 
@@ -629,7 +630,7 @@ color: #f7ec3c;
     height: 100px;
     margin-top: 3%;
     margin-bottom: 8%;
-    margin-left: -22%;
+    margin-left: -20%;
     flex-shrink: 0;
 }
 
@@ -642,14 +643,14 @@ color: #f7ec3c;
     height: 100px;
     margin-top: 1%;
     margin-bottom: 9%;
-    margin-left: -20%;
+    margin-left: -21%;
     flex-shrink: 0;
 }
 
 .abbott img{
     width: 155px;
     height: 120px;
-    margin-left: -19%;
+    margin-left: -17%;
     margin-bottom: -1%;
     flex-shrink: 0;
 }
@@ -659,7 +660,7 @@ color: #f7ec3c;
     height: 90px;
     margin-top: 8%;
     margin-bottom: 13%;
-    margin-left: -7%;
+    margin-left: -3%;
     flex-shrink: 0;
 }
 
@@ -1294,7 +1295,6 @@ li{
     .intro-text{
         margin-left: 10%;
         margin-right: 10%;
-
     }
 
     .intro-text2{
@@ -1309,6 +1309,12 @@ li{
 
     .communication {
         padding: 0;
+    }
+
+    .jobs h4{
+        width: auto;
+        font-size: 20px;
+        margin-top: 3px;
     }
 }
 
@@ -1332,6 +1338,7 @@ li{
         width: 650px;
     }
 
+
     .card-btn {
         font-size: 100px;
         margin-bottom: 30px;
@@ -1343,7 +1350,7 @@ li{
 
     .Initial {
         font-size: 30px;
-        margin-top: 40%
+        margin-top: 40%;
     }
 
     .x-btn{
@@ -1462,6 +1469,7 @@ li{
 
     .sub-menu a{
         width: 200px;
+        line-height: 200%;
     }
 
     .slide{
@@ -1497,4 +1505,92 @@ li{
         margin-right: -25%;
     }
 
+    .cv-intro{
+        padding: 120px;
+    }
+
+    .intro-text{
+        font-size: 22px;
+        color: #4e4e4e;
+        line-height: 180%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: -60px;
+    }
+
+    .intro-text2{
+        font-size: 22px;
+        color: #4e4e4e;
+        line-height: 180%;
+        margin-top:25px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .experience{
+        height: auto;
+        background-color: #4e4e4e;
+    }
+
+    .exp-title{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        letter-spacing: 15px;
+        font-weight: lighter;
+        color: white;
+        padding: 80px;
+    }
+
+    .jobs{
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 35px;
+        align-items: center;
+        font-size: 20px;
+        background-color: white;
+        margin: 0 auto;
+    }
+
+    .jobs h4 {
+        font-weight: revert;
+        color: #6e6e6e;
+    }
+
+    .blk img{
+        margin-top: 15%;
+        margin-bottom: 13%;
+        margin-left: 13%;
+        transform: scale(1.3);
+    }
+
+    .vf img{
+        margin-top: 3%;
+        margin-bottom: 15%;
+        margin-left: -5%;
+        transform: scale(1.5);
+    }
+
+    .ice img{
+        margin-top: 1%;
+        margin-bottom: 15%;
+        margin-left: -6%;
+        transform: scale(1.5);
+    }
+
+    .abbott img{
+        margin-bottom: 10%;
+        margin-left: -2%;
+        transform: scale(1.5);
+    }
+
+    .nuskin img{
+        margin-top: 8%;
+        margin-bottom: 15%;
+        margin-left: 10%;
+        transform: scale(1.5);
+    }
 }
