@@ -1352,7 +1352,7 @@ li{
         width: 90%;
         height: 900px;
         padding: 50px;
-        top: 53%;
+        top: 52%;
         left: 50%;
         transform: translate(-50%,-50%);
     }
@@ -1613,6 +1613,20 @@ li{
         line-height: 180%;
     }
 
+    .back-btn3 , .back-btn4, .back-btn5 , .back-btn6, .back-btn7, .back-btn8{
+        transition: opacity 2s, color 0.3s;
+        position: absolute;
+        bottom: 5%;
+        left: 47%;
+        font-size: 15px;
+        font-weight: bold;
+        color: #e9e9e9;
+        border: 2px solid #4e4e4e;
+        border-radius: 3px;
+        cursor: pointer;
+        padding: 0.7%;
+        background-color: black;
+
     .education h1{
         font-size: 65px;
         padding: 65px;
@@ -1623,9 +1637,9 @@ li{
     }
 
     .education li{
-        margin-top: 3px;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-top: 4px;
+        margin-left: 60px;
+        margin-right: 60px;
         font-size: 25px;
     }
 
