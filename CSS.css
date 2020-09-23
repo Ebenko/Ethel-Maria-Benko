@@ -562,8 +562,8 @@ color: #f7ec3c;
 }
 
 .experience{
-    height: 200px;
-    background-color: #4e4e4e;
+    height: auto;
+    background: linear-gradient( to right, #4e4e4e, rgba(78, 54, 103, 0.62), #4e4e4e);
 }
 
 .exp-title{
@@ -573,7 +573,7 @@ color: #f7ec3c;
     letter-spacing: 15px;
     font-weight: lighter;
     color: white;
-    padding: 60px;
+    padding: 65px;
 }
 
 .jobs{
@@ -681,6 +681,12 @@ color: #f7ec3c;
     box-shadow: 0 0 10px #908d78;
 }*/
 
+ul{
+    margin-top: 3px;
+    padding: 2.5%;
+    line-height: 170%;
+}
+
 .blk-details, .vf-details, .ice-details, .abbott-details, .nuskin-details {
     opacity: 0;
     visibility: hidden;
@@ -695,7 +701,7 @@ color: #f7ec3c;
     color: #525252;
     font-family: 'Roboto', sans-serif;
     width: 800px;
-    height: 550px;
+    height: 560px;
     /*top: 90%;
     left: 50%;
     transform: translate(-50%, 0);*/
@@ -726,12 +732,6 @@ color: #f7ec3c;
     font-size: 18px;
     letter-spacing: 3px;
     line-height: 180%;
-}
-
-ul{
-    margin-top: 3px;
-    padding: 2.5%;
-    line-height: 170%;
 }
 
 li{
@@ -772,25 +772,29 @@ li{
 }*/
 
 .education{
-    height: 650px;
+    height: auto;
     display: block;
     background-color: #acacac;
     text-align: center;
-    padding: 50px;
-    color: #464646;
+    padding: 0 0 40px 0;
+    color: #4e4e4e;
 }
 
 .education h1{
-    font-size: 50px;
-    letter-spacing: 6px;
-    font-weight: lighter;
-    top: 25px;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    letter-spacing: 15px;
+    color: white;
+    background: linear-gradient( to right, #4e4e4e, rgba(43, 30, 57, 0.62), #4e4e4e);
+    padding: 65px;
+    margin-top: 0;
 }
 
 .education ul{
     line-height: 180%;
     margin-top: 30px;
-    padding: 0;
+    padding: 20px;
 }
 .education li{
     margin-top: 2px;
@@ -801,15 +805,19 @@ li{
 
 .tech{
     text-align: center;
-    padding: 40px;
+    padding: 0 0 40px 0;
     background-color: white;
 }
 
 .tech h1{
-    font-size: 50px;
-    letter-spacing: 6px;
-    font-weight: lighter;
-    top: 30px;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    letter-spacing: 10px;
+    top: 0;
+    padding: 65px;
+    background: linear-gradient( to right, #4e4e4e, rgba(43, 30, 57, 0.62), #4e4e4e);
+    color: white;
 }
 
 .tech li{
@@ -819,63 +827,75 @@ li{
 }
 
 .communication{
-    padding: 40px;
-    background-color: rgba(136, 99, 159, 0.58);
-    display: flex;
-    justify-content: space-around;
+    padding: 50px;
+    background: rgba(136, 99, 159, 0.58);
+    width: auto;
+    position: relative;
 }
 
-.comm-text{
+.comm-text {
     position: absolute;
+    text-align: center;
     z-index: 20;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.comm-pics{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .pic-left{
     opacity: .2;
     flex-shrink: 0;
-    margin-left: -150px;
+    padding: 0;
+    position: relative;
 }
 
 .pic-right{
     opacity: .2;
     flex-shrink: 0;
-    margin-right: -140px;
+    padding: 0;
+    position: relative;
 }
 
 .communication h1{
-    font-size: 50px;
-    letter-spacing: 6px;
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    letter-spacing: 10px;
     color: white;
     margin-top: 10px;
+    background: radial-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.01), transparent)
 }
 
 .communication li{
     list-style-type: none;
-    margin-top: 4px;
-    font-size: 20px;
+    margin-top: 5px;
+    font-size: 22px;
     color: white;
-    text-align: center;
-    font-weight: bolder;
 }
 
 .language{
-    height: 300px;
+    height: auto;
     text-align: center;
-    padding: 50px;
+    padding: 70px;
     background-color: white;
 
 }
 
 .language h1{
-    font-size: 50px;
-    letter-spacing: 6px;
-    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    letter-spacing: 10px;
     padding: 0;
 }
 
 .language ul{
-    margin-top: -20px;
+    margin-top: -15px;
 }
 
 .language li{
@@ -893,18 +913,18 @@ li{
 }
 
 .contact-orientation{
-    width: 390px;
-    display: inline-block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
+      width: 390px;
+      display: inline-block;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      position: absolute;
 }
 
 .contact h1{
-    font-size: 50px;
-    letter-spacing: 6px;
-    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    letter-spacing: 10px;
     text-align: center;
     margin-right: 10px;
 }
@@ -1024,8 +1044,8 @@ li{
 .back-btn3 , .back-btn4, .back-btn5 , .back-btn6, .back-btn7, .back-btn8{
     transition: opacity 2s, color 0.3s;
     position: absolute;
-    bottom: 3%;
-    right: 2%;
+    bottom: 5%;
+    left: 47%;
     font-size: 13px;
     font-weight: bold;
     color: #e9e9e9;
@@ -1133,14 +1153,6 @@ li{
         margin-left: 55%;
     }
 
-    .pic-left{
-        margin-left: -100px;
-    }
-
-    .pic-right{
-        margin-right: -100px;
-    }
-
     .intro-text{
         margin-top: 0;
     }
@@ -1176,20 +1188,8 @@ li{
         margin-top: 10px;
     }
 
-    .pic-left{
-        margin-left: -50px;
-    }
-
-    .pic-right{
-        margin-right: -50px;
-    }
-
-    .communication img{
-        transform: scale(0.9);
-    }
-
-    .communication {
-        padding: 30px;
+    .comm-pics{
+        justify-content: center;
     }
 
     .intro-text{
@@ -1214,13 +1214,10 @@ li{
         margin-top: 25px;
     }
 
-    .communication img{
-        transform: scale(0.8);
+    .comm-pics{
+        transform: scale(0.9)
     }
 
-    .communication {
-        padding: 20px;
-    }
     .blk, .vf, .ice, .abbott, .nuskin {
         transform: scale(1.1);
         padding: 60px;
@@ -1243,12 +1240,12 @@ li{
         height: 300px;
     }
 
-    .communication img{
-        transform: scale(0.7);
+    .comm-pics{
+        transform: scale(0.8)
     }
 
-    .communication h1 {
-        margin-top: 15px;
+    .communication {
+        padding: 60px;
     }
 
     .intro-text{
@@ -1272,14 +1269,6 @@ li{
 
 @media only screen and (max-width: 1190px) {
 
-    .communication img {
-        transform: scale(0.6);
-    }
-
-    .communication h1 {
-        margin-top: 20px;
-    }
-
     .cv-intro{
         padding: 10% 15% 15% 15%;
     }
@@ -1302,13 +1291,8 @@ li{
         margin-right: 10%;
     }
 
-    .communication img{
-        transform: scale(0.5);
-        justify-content: space-evenly;
-    }
-
-    .communication {
-        padding: 0;
+    .comm-pics{
+        transform: scale(0.75)
     }
 
     .jobs h4{
@@ -1320,9 +1304,10 @@ li{
 
 @media only screen and (max-width: 1040px){
 
-    .communication img {
-        transform: scale(0.4);
+    .comm-pics{
+        transform: scale(0.7)
     }
+
 
     .pdf{
         margin-top: 5.5%;
@@ -1367,7 +1352,7 @@ li{
         width: 90%;
         height: 900px;
         padding: 50px;
-        top: 50%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%,-50%);
     }
@@ -1507,19 +1492,20 @@ li{
 
     .cv-intro{
         padding: 120px;
+        height: 400px;
     }
 
     .intro-text{
-        font-size: 22px;
+        font-size: 25px;
         color: #4e4e4e;
         line-height: 180%;
         margin-left: 0;
         margin-right: 0;
-        margin-top: -60px;
+        margin-top: -70px;
     }
 
     .intro-text2{
-        font-size: 22px;
+        font-size: 25px;
         color: #4e4e4e;
         line-height: 180%;
         margin-top:25px;
@@ -1592,5 +1578,117 @@ li{
         margin-bottom: 15%;
         margin-left: 10%;
         transform: scale(1.5);
+    }
+
+    .blk-details, .vf-details, .ice-details, .abbott-details, .nuskin-details {
+        line-height: 160%;
+        font-size: 20px;
+        color: #525252;
+        font-family: 'Roboto', sans-serif;
+        width: 800px;
+        height: 900px;
+        box-shadow: 0 0 60px #424137;
+        padding: 4%;
+    }
+
+    .vf-details{
+        height: 650px;
+    }
+
+    .ice-details{
+        height: 480px;
+    }
+
+    .abbott-details{
+        height: 700px;
+    }
+
+    .nuskin-details{
+        height: 750px;
+    }
+
+    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1{
+        font-size: 25px;
+        letter-spacing: 3px;
+        line-height: 180%;
+    }
+
+    .education h1{
+        font-size: 65px;
+        padding: 65px;
+    }
+
+    .education h2{
+        font-size: 30px;
+    }
+
+    .education li{
+        margin-top: 2px;
+        font-size: 25px;
+    }
+
+    .tech h1{
+        font-size: 65px;
+        padding: 65px;
+    }
+
+    .tech ul{
+        padding: 50px;
+    }
+
+    .tech li{
+        margin-top: 5px;
+        font-size: 25px;
+    }
+
+    .communication{
+        padding: 80px 0 80px 0;
+    }
+
+    .communication h1{
+        font-size: 65px;
+    }
+
+    .communication li{
+        font-size: 25px;
+    }
+
+    .language{
+        padding: 80px;
+    }
+
+    .language h1{
+        font-size: 65px;
+    }
+
+    .language li{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .contact{
+        height: 450px;
+        padding: 60px;
+    }
+
+    .contact-orientation{
+        width: 480px;
+        display: inline-block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+    }
+
+    .contact h1{
+        font-size: 65px;
+    }
+
+    .phone, .e-mail, .current-loc, .permit, .swiss-number{
+        font-size: 25px;
+    }
+
+    .map-main{
+    font-size: 20px;
     }
 }
