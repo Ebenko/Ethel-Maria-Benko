@@ -816,7 +816,7 @@ li{
     letter-spacing: 10px;
     top: 0;
     padding: 65px;
-    background: linear-gradient( to right, #4e4e4e, rgba(43, 30, 57, 0.62), #4e4e4e);
+    background: linear-gradient( to right, #4e4e4e, rgba(28, 10, 29, 0.62), #4e4e4e);
     color: white;
 }
 
@@ -1352,7 +1352,7 @@ li{
         width: 90%;
         height: 900px;
         padding: 50px;
-        top: 55%;
+        top: 53%;
         left: 50%;
         transform: translate(-50%,-50%);
     }
@@ -1519,13 +1519,8 @@ li{
     }
 
     .exp-title{
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
         font-size: 35px;
-        letter-spacing: 15px;
-        font-weight: lighter;
-        color: white;
-        padding: 80px;
+        padding: 65px;
     }
 
     .jobs{
@@ -1580,6 +1575,11 @@ li{
         transform: scale(1.5);
     }
 
+    .blk:hover, .vf:hover, .ice:hover, .abbott:hover, .nuskin:hover{
+        border: revert;
+        box-shadow: 0 0 15px #908d78;
+    }
+
     .blk-details, .vf-details, .ice-details, .abbott-details, .nuskin-details {
         line-height: 160%;
         font-size: 20px;
@@ -1623,7 +1623,9 @@ li{
     }
 
     .education li{
-        margin-top: 2px;
+        margin-top: 3px;
+        margin-left: 40px;
+        margin-right: 40px;
         font-size: 25px;
     }
 
@@ -1642,7 +1644,7 @@ li{
     }
 
     .communication{
-        padding: 80px 0 80px 0;
+        padding: 90px 0 90px 0;
     }
 
     .communication h1{
@@ -1650,7 +1652,8 @@ li{
     }
 
     .communication li{
-        font-size: 25px;
+        font-size: 23px;
+        margin-top: 10px;
     }
 
     .language{
@@ -1688,7 +1691,24 @@ li{
         font-size: 25px;
     }
 
+    .permit{
+        width: 490px;
+    }
+
     .map-main{
-    font-size: 20px;
+        font-size: 20px;
+    }
+
+    .back-btn:hover, .back-btn2:hover, .back-btn3:hover, .back-btn4:hover, .back-btn5:hover, .back-btn6:hover, .back-btn7:hover, .back-btn8:hover{
+        color: revert;
+    }
+
+    .back-btn:hover{
+        color: blueviolet;
+    }
+
+    .bottom-map{
+        height: 350px;
+        padding: 25px;
     }
 }
