@@ -64,8 +64,7 @@ document.querySelector('.x-btn').addEventListener(
 
 /*click Full CV*/
 
-window.addEventListener('load', function(){
-
+$(document).ready(function(){
     document.querySelector('.full-cv-btn').addEventListener
 ('click', ()=> {
 
@@ -98,6 +97,7 @@ document.querySelector('.logo').addEventListener(
     .style.background= '#292929';
 });
 
+//smooth scroll down after click in sub-menu options
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -165,14 +165,15 @@ function topFunction() {
 
 
 /*click Short Introduction*/
-document.querySelector('.introduction-btn').addEventListener
-('click', ()=> {
+document.querySelector('.introduction-btn').addEventListener(
+    'click', ()=> {
 
     document.querySelector('.short-intro')
     .style.cssText = 'opacity: 1; visibility: visible';
 
     document.querySelector('.x-btn')
         .style.display = 'none';
+
 });
 
 
@@ -188,6 +189,21 @@ document.querySelector('.back-btn2').addEventListener(
     document.querySelector('.x-btn')
     .style.cssText = 'opacity: 1; visibility: visible';
 
+});
+
+//Dropdown menu
+
+$(document).ready(function(){
+    if ($(window).width() < 1000) {
+        $(".menu").click(function () {
+            $(this).find(".sub-menu").slideToggle('fast');
+        });
+    }});
+$(document).on("click", function(event){
+    let $trigger = $(".menu");
+    if($trigger !== event.target && !$trigger.has(event.target).length){
+        $(".sub-menu").slideUp();
+    }
 });
 
 
