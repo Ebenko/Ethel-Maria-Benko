@@ -907,7 +907,7 @@ li{
 }
 
 .contact{
-    height: 350px;
+    height: 400px;
     background-color: #acacac;
     padding: 50px;
     margin: auto;
@@ -932,12 +932,12 @@ li{
 }
 
 .contact-info{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .phone, .e-mail, .current-loc, .permit{
     list-style-type: none;
-    margin-top: 5px;
+    margin-top: 25px;
     font-size: 20px;
 }
 
@@ -945,7 +945,7 @@ li{
     text-align: right;
     list-style-type: none;
     font-size: 20px;
-    margin-top: -10px;
+    margin-top: 0;
     margin-right: 13px;
 }
 
@@ -1017,7 +1017,7 @@ li{
     left: 3.2%;
 }
 
-.card-icon-link2:hover .card-icon2{
+.card-icon2:hover{
     color: dodgerblue;
 }
 
@@ -1451,7 +1451,7 @@ li{
         width: 230px;
         border-radius: 2%;
         padding: 5px;
-        margin-top: 5px;
+        margin-top: 20px;
     }
 
     .sub-menu a{
@@ -1461,6 +1461,9 @@ li{
 
     .menu:hover{
         color: white;
+    }
+    .menu:hover .sub-menu{
+        display: none;
     }
 
     .slide{
@@ -1704,7 +1707,7 @@ li{
     }
 
     .contact-orientation{
-        width: 570px;
+        width: 569px;
         display: inline-block;
         top: 50%;
         left: 50%;
@@ -1733,52 +1736,47 @@ li{
         color: blueviolet;
     }
 
+    .back-btn{
+        font-size: 350%;
+    }
+
     .bottom-map{
-        height: 450px;
+        height: 500px;
         padding: 25px;
     }
 
     .map-main{
-        font-size: 25px;
-        margin-top: 30px;
+        font-size: 30px;
+        margin-top: 40px;
     }
 
+    .map-socialmedia{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
     .card-icon-link2{
-        text-decoration: none;
-        width: 40px;
-        height: 40px;
-        border: 1px solid white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 3px;
-        transition: border 0.1s;
-        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        border: 2px solid white;
+        border-radius: 5px;
     }
 
     .card-icon-link2:hover{
-        border: white;
+        border: solid white;
     }
 
     .card-icon2{
-        font-size: 32px;
-        color: white;
-        transition: color 1s;
-        align-items: center;
-        justify-items: center;
+        font-size: 40px;
         top: 3.2%;
         left: 3.2%;
     }
 
-    .card-icon-link2:hover .card-icon2{
+    .card-icon2:hover{
         color: white;
     }
 
     .email2{
-        color: white;
-        font-size: 45px;
-        cursor: pointer;
-        transition: color 0.8s;
+        font-size: 60px;
         margin-top: 2%;
     }
 
@@ -1787,9 +1785,7 @@ li{
     }
 
     .pdf-icon2{
-        color: white;
-        font-size: 40px;
-        transition: color .7s;
+        font-size: 53px;
     }
 
     .pdf-icon2:hover{

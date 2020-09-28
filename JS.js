@@ -193,17 +193,31 @@ document.querySelector('.back-btn2').addEventListener(
 
 //Dropdown menu
 
-$(document).ready(function(){
+/*$(document).ready(function(){
     if ($(window).width() < 1000) {
-        $(".menu").click(function () {
-            $(this).find(".sub-menu").slideToggle('fast');
+        $('.menu').click(function(e) {
+        e.preventDefault();
+        $('.sub-menu').slideToggle();
+
+                         $(".sub-menu",this).slideToggle('slow');
+
+                        return true;
         });
-    }});
-$(document).on("click", function(event){
+    }});*/
+/*$(document).on("click", function(event){
     let $trigger = $(".menu");
     if($trigger !== event.target && !$trigger.has(event.target).length){
         $(".sub-menu").slideUp();
     }
+});*/
+/* $(this).toggleClass("active");
+ $("ul", this).slideToggle("slow");*/
+
+
+$(document).ready(function(){
+    $(".menu").click(function(){
+        $(".sub-menu").slideToggle('slow');
+    });
 });
 
 
@@ -214,8 +228,6 @@ document.querySelector('.email').addEventListener
     document.querySelector('.email-popup')
         .style.cssText = 'opacity: 1; visibility: visible';
 });*/
-
-
 /*click back-btn8
 document.querySelector('.back-btn8').addEventListener(
     'click', ()=> {
@@ -234,7 +246,10 @@ document.querySelector('.back-btn8').addEventListener(
 document.querySelector('.blk').addEventListener
 ('click', ()=> {
     document.querySelector('.blk-details')
-    .style.cssText = 'opacity: 1; visibility: visible';
+        .style.cssText = 'opacity: 1; visibility: visible';
+
+    document.querySelector('.vf-details', '.ice-details', '.abbott-details', '.nuskin-details')
+        .style.display = 'none';
 });
 
 document.querySelector('.back-btn3').addEventListener(
@@ -248,7 +263,24 @@ document.querySelector('.back-btn3').addEventListener(
 document.querySelector('.vf').addEventListener
 ('click', ()=> {
     document.querySelector('.vf-details')
-    .style.cssText = 'opacity: 1; visibility: visible';
+        .style.cssText = 'opacity: 1; visibility: visible';
+
+    /*document.querySelector('.blk-details', '.ice-details', '.abbott-details', '.nuskin-details')
+        .style.display = 'none';
+
+    document.getElementById('.blk-details', '.ice-details', '.abbott-details', '.nuskin-details')
+        .addEventListener("click", function(event){
+            event.preventDefault()
+                }
+
+
+    window.disabled = function() {DisableNextButton()};
+    function DisableNextButton('.blk-details', '.ice-details', '.abbott-details', '.nuskin-details')
+    {
+        document.getElementById('.blk-details', '.ice-details', '.abbott-details', '.nuskin-details')
+            .disabled = 'true';
+    }*/
+
 });
 
 document.querySelector('.back-btn4').addEventListener(
