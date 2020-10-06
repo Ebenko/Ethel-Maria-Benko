@@ -44,6 +44,8 @@ document.querySelector('.card-btn').addEventListener
 
 });
 
+
+
 /*click x-btn*/
 document.querySelector('.x-btn').addEventListener(
     'click', ()=> {
@@ -61,6 +63,33 @@ document.querySelector('.x-btn').addEventListener(
     .style.cssText = 'background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)), url("pictures/Forest.jpg") no-repeat center;';
 
 });
+
+/*click Short Introduction*/
+document.querySelector('.introduction-btn').addEventListener(
+    'click', ()=> {
+
+        document.querySelector('.short-intro')
+            .style.cssText = 'opacity: 1; visibility: visible';
+
+        document.querySelector('.x-btn')
+            .style.display = 'none';
+
+    });
+
+
+/*click back-btn2*/
+document.querySelector('.back-btn2').addEventListener(
+    'click', ()=> {
+        document.querySelector('.short-intro')
+            .style.display = 'none';
+
+        document.querySelector('.card-wrapper')
+            .style.background= '#292929';
+
+        document.querySelector('.x-btn')
+            .style.cssText = 'opacity: 1; visibility: visible';
+
+    });
 
 /*click Full CV*/
 
@@ -164,33 +193,6 @@ function topFunction() {
 }*/
 
 
-/*click Short Introduction*/
-document.querySelector('.introduction-btn').addEventListener(
-    'click', ()=> {
-
-    document.querySelector('.short-intro')
-    .style.cssText = 'opacity: 1; visibility: visible';
-
-    document.querySelector('.x-btn')
-        .style.display = 'none';
-
-});
-
-
-/*click back-btn2*/
-document.querySelector('.back-btn2').addEventListener(
-    'click', ()=> {
-    document.querySelector('.short-intro')
-    .style.display = 'none';
-
-    document.querySelector('.card-wrapper')
-    .style.background= '#292929';
-
-    document.querySelector('.x-btn')
-    .style.cssText = 'opacity: 1; visibility: visible';
-
-});
-
 //Dropdown menu
 
 /*$(document).ready(function(){
@@ -215,9 +217,13 @@ document.querySelector('.back-btn2').addEventListener(
 
 
 $(document).ready(function(){
-    $(".menu").click(function(){
-        $(".sub-menu").slideToggle('slow');
+    if ($(window).width() < 1000) {
+        $(".menu").click(function(){
+            $(".sub-menu").slideToggle('slow');
+
+            return true;
     });
+    }
 });
 
 
@@ -240,9 +246,8 @@ document.querySelector('.back-btn8').addEventListener(
     });*/
 
 
-
     //BLACKROCK DETAILS:
-
+/*
 document.querySelector('.blk').addEventListener
 ('click', ()=> {
     document.querySelector('.blk-details')
@@ -250,19 +255,51 @@ document.querySelector('.blk').addEventListener
 
     document.querySelector('.vf-details', '.ice-details', '.abbott-details', '.nuskin-details')
         .style.display = 'none';
+});*/
+
+document.querySelector('.blk').addEventListener(
+    'click', ()=> {
+
+        document.querySelector('.blk-details')
+            .style.cssText = 'opacity: 1; visibility: visible';
+
+        document.querySelector('.blk-background')
+            .style.cssText = 'opacity: 1; visibility: visible';
+
 });
 
 document.querySelector('.back-btn3').addEventListener(
     'click', ()=> {
-    document.querySelector('.blk-details')
-    .style.display = 'none';
-});
+        document.querySelector('.blk-details')
+            .style.display = 'none';
+
+        document.querySelector('.blk-background')
+            .style.display = 'none';
+    });
+
+/*/
+window.push = function() {pushfunction()};
+
+    function pushfunction() {
+
+    $('.blk').click(function(e) {
+        e.preventDefault();
+        $('body').css('overflow', 'auto');
+    });*/
+
+/*
+$(document).on('hidden.bs.modal', function () {
+    $('body').addClass('modal-open');
+});*/
 
     //VODAFONE DETAILS:
 
 document.querySelector('.vf').addEventListener
 ('click', ()=> {
-    document.querySelector('.vf-details')
+   document.querySelector('.vf-details')
+        .style.cssText = 'opacity: 1; visibility: visible';
+
+    document.querySelector('.vf-background')
         .style.cssText = 'opacity: 1; visibility: visible';
 
     /*document.querySelector('.blk-details', '.ice-details', '.abbott-details', '.nuskin-details')
@@ -286,7 +323,10 @@ document.querySelector('.vf').addEventListener
 document.querySelector('.back-btn4').addEventListener(
     'click', ()=> {
     document.querySelector('.vf-details')
-    .style.display = 'none';
+        .style.display = 'none';
+
+    document.querySelector('.vf-background')
+        .style.display = 'none';
 });
 
     //ICE DETAILS:
@@ -294,13 +334,19 @@ document.querySelector('.back-btn4').addEventListener(
 document.querySelector('.ice').addEventListener
 ('click', ()=> {
     document.querySelector('.ice-details')
-    .style.cssText = 'opacity: 1; visibility: visible';
+        .style.cssText = 'opacity: 1; visibility: visible';
+
+    document.querySelector('.ice-background')
+        .style.cssText = 'opacity: 1; visibility: visible';
 });
 
 document.querySelector('.back-btn5').addEventListener(
     'click', ()=> {
     document.querySelector('.ice-details')
-    .style.display = 'none';
+        .style.display = 'none';
+
+    document.querySelector('.ice-background')
+        .style.display = 'none';
 });
 
     //ABBOTT DETAILS:
@@ -308,13 +354,19 @@ document.querySelector('.back-btn5').addEventListener(
 document.querySelector('.abbott').addEventListener
 ('click', ()=> {
     document.querySelector('.abbott-details')
-    .style.cssText = 'opacity: 1; visibility: visible';
+        .style.cssText = 'opacity: 1; visibility: visible';
+
+    document.querySelector('.abbott-background')
+        .style.cssText = 'opacity: 1; visibility: visible';
 });
 
 document.querySelector('.back-btn6').addEventListener(
     'click', ()=> {
     document.querySelector('.abbott-details')
-    .style.display = 'none';
+        .style.display = 'none';
+
+    document.querySelector('.abbott-background')
+        .style.display = 'none';
 });
 
     //NU SKIN DETAILS:
@@ -322,11 +374,17 @@ document.querySelector('.back-btn6').addEventListener(
 document.querySelector('.nuskin').addEventListener
 ('click', ()=> {
     document.querySelector('.nuskin-details')
-    .style.cssText = 'opacity: 1; visibility: visible';
+        .style.cssText = 'opacity: 1; visibility: visible';
+
+    document.querySelector('.nuskin-background')
+        .style.cssText = 'opacity: 1; visibility: visible';
 });
 
 document.querySelector('.back-btn7').addEventListener(
     'click', ()=> {
     document.querySelector('.nuskin-details')
-    .style.display = 'none';
+        .style.display = 'none';
+
+    document.querySelector('.nuskin-background')
+        .style.display = 'none';
 });

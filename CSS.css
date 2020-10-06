@@ -599,6 +599,10 @@ color: #f7ec3c;
     margin-top: 2px;
 }
 
+.jobs h3{
+    color: #484848;
+}
+
 .blk, .vf, .ice, .abbott, .nuskin {
     display: block;
     cursor: pointer;
@@ -606,7 +610,7 @@ color: #f7ec3c;
     border: 3px solid transparent;
     transition: opacity .3s,  border .4s, box-shadow .5s;
     flex-shrink: 0;
-
+    text-decoration: none;
 }
 
 .blk:hover, .vf:hover, .ice:hover, .abbott:hover, .nuskin:hover{
@@ -625,6 +629,10 @@ color: #f7ec3c;
 
 .blk h4{
     margin-bottom: 5%;
+}
+
+.blk a{
+    text-decoration: none;
 }
 
 .vf img{
@@ -689,11 +697,24 @@ ul{
     line-height: 170%;
 }
 
-.blk-details, .vf-details, .ice-details, .abbott-details, .nuskin-details {
+.blk-background, .vf-background, .ice-background, .abbott-background, .nuskin-background{
+    opacity: 0;
+    visibility: hidden;
+    height: 100vh;
+    width: 3000px;
+    background: rgba(128, 128, 128, 0.47);
+    background-size: cover;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 40;
+}
+
+.blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
     opacity: 0;
     visibility: hidden;
     transition: opacity 1s;
-    /*border: 2.5px solid #f7ec3c;*/
     border-radius: 1%;
     position: fixed;
     background-color: white;
@@ -704,15 +725,14 @@ ul{
     font-family: 'Roboto', sans-serif;
     width: 800px;
     height: 560px;
-    /*top: 90%;
-    left: 50%;
-    transform: translate(-50%, 0);*/
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     box-shadow: 0 0 60px #424137;
     padding: 3%;
+    z-index: 50;
 }
+
 
 .vf-details{
     height: 400px;
@@ -909,18 +929,19 @@ li{
 .contact{
     height: 400px;
     background-color: #acacac;
-    padding: 50px;
+    padding: 50px 0 50px 0;
+    justify-content: center;
     margin: auto;
     position: relative;
 }
 
 .contact-orientation{
-      width: 390px;
-      display: inline-block;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      position: absolute;
+    width: 390px;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
 }
 
 .contact h1{
@@ -1229,11 +1250,6 @@ li{
     .jobs{
         padding: 15px;
     }
-
-    .blk-details, .vf-details, .ice-details, .abbott-details, .nuskin-details{
-        z-index: 50;
-    }
-
 }
 
 @media only screen and (max-width: 1270px) {
@@ -1266,7 +1282,6 @@ li{
     .cv-intro{
         padding: 10%;
     }
-
 }
 
 @media only screen and (max-width: 1190px) {
@@ -1309,7 +1324,6 @@ li{
     .comm-pics{
         transform: scale(0.7)
     }
-
 
     .pdf{
         margin-top: 5.5%;
@@ -1594,26 +1608,26 @@ li{
         font-size: 25px;
         color: #525252;
         font-family: 'Roboto', sans-serif;
-        width: 800px;
-        height: 1300px;
+        width: 700px;
+        height: 1380px;
         box-shadow: 0 0 60px #424137;
-        padding: 4%;
+        padding: 2%;
     }
 
     .vf-details{
-        height: 850px;
+        height: 960px;
     }
 
     .ice-details{
-        height: 650px;
+        height: 600px;
     }
 
     .abbott-details{
-        height: 950px;
+        height: 1120px;
     }
 
     .nuskin-details{
-        height: 1020px;
+        height: 1110px;
     }
 
     .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1{
@@ -1702,22 +1716,18 @@ li{
     }
 
     .contact{
-        height: 450px;
+        height: 500px;
         padding: 60px;
     }
 
     .contact-orientation{
         width: 569px;
         display: inline-block;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        position: absolute;
     }
 
     .contact h1{
         font-size: 65px;
-        margin-top: -5px;
+        margin-top: 5px;
     }
 
     .phone, .e-mail, .current-loc, .permit, .swiss-number{
