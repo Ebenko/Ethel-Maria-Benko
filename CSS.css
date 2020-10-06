@@ -1608,14 +1608,14 @@ li{
         font-size: 25px;
         color: #525252;
         font-family: 'Roboto', sans-serif;
-        width: 700px;
-        height: 1380px;
+        width: 800px;
+        height: 1250px;
         box-shadow: 0 0 60px #424137;
         padding: 2%;
     }
 
     .vf-details{
-        height: 960px;
+        height: 820px;
     }
 
     .ice-details{
@@ -1623,11 +1623,11 @@ li{
     }
 
     .abbott-details{
-        height: 1120px;
+        height: 1000px;
     }
 
     .nuskin-details{
-        height: 1110px;
+        height: 1030px;
     }
 
     .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1{
