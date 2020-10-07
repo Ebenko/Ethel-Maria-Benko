@@ -1,4 +1,5 @@
 
+
 window.onbeforeunload = function () {
     window.scrollTo(0,0);
 };
@@ -27,7 +28,9 @@ cvPage.onbeforeunload = function () {
 };*/
 
 /*click handle*/
-document.querySelector('.card-btn').addEventListener
+
+$(document).ready(function(){
+    document.querySelector('.card-btn').addEventListener
 ('click', ()=> {
     document.querySelector('.card-btn')
         .style.display = 'none';
@@ -43,8 +46,7 @@ document.querySelector('.card-btn').addEventListener
         .style.background= '#292929';
 
 });
-
-
+}) ;
 
 /*click x-btn*/
 document.querySelector('.x-btn').addEventListener(
@@ -217,7 +219,7 @@ function topFunction() {
 
 
 $(document).ready(function(){
-    if ($(window).width() < 1000) {
+    if ($(window).width() < 1410) {
         $(".menu").click(function(){
             $(".sub-menu").slideToggle('slow');
 
