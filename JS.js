@@ -163,6 +163,7 @@ function scrollFunction() {
     }
 }
 
+$(document).ready(function(){
 btnScroll.addEventListener('click', function() {
    window.scrollTo({
        top: 0,
@@ -170,7 +171,7 @@ btnScroll.addEventListener('click', function() {
       behavior: 'smooth'
    });
 });
-
+});
 
 
 /*

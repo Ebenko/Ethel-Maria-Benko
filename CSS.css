@@ -116,17 +116,16 @@ body { height: 100%; overflow: hidden}*/
     position: absolute;
     background-color: grey;
     width: 800px;
-    height: 280px;
+    height: auto;
     top: 48%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    padding: 15px;
+    padding: 40px 40px 80px 40px;
     color: white;
 }
 
 .short-intro h1{
-    margin-top: 2%;
     font-size: 20px;
 }
 
@@ -148,6 +147,20 @@ body { height: 100%; overflow: hidden}*/
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 180%;
+}
+
+.back-btn2{
+    transition: opacity 2s, color .3s;
+    position: absolute;
+    bottom: 20px;
+    left: 47%;
+    font-size: 13px;
+    font-weight: bold;
+    color: #e9e9e9;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 1%;
+    background-color: #424137;
 }
 
 .contact-icons{
@@ -852,6 +865,7 @@ li{
     padding: 50px;
     background: rgba(136, 99, 159, 0.58);
     width: auto;
+    height: auto;
     position: relative;
 }
 
@@ -1079,20 +1093,6 @@ li{
     background-color: black;
 }
 
-.back-btn2{
-    transition: opacity 2s, color .3s;
-    position: absolute;
-    bottom: 5%;
-    left: 47%;
-    font-size: 13px;
-    font-weight: bold;
-    color: #e9e9e9;
-    border-radius: 3px;
-    cursor: pointer;
-    padding: 0.7%;
-    background-color: #424137;
-}
-
 .back-btn{
     display: none;
     text-decoration: none;
@@ -1125,9 +1125,6 @@ li{
 /*RESPONSIVE WEB*/
 
 @media only screen and (max-width: 2105px){
-    .cv-intro{
-        height: 260px;
-    }
 
     .intro-text{
         margin-left: 18%;
@@ -1141,9 +1138,7 @@ li{
 }
 
 @media only screen and (max-width: 2070px){
-    .cv-intro{
-        height: 300px;
-    }
+
 
     .intro-text{
         margin-left: 15%;
@@ -1227,14 +1222,17 @@ li{
 /*Small laptops and tablet size*/
 @media only screen and (max-width: 1410px) {
 
-    .short-intro{
-        height: 300px;
-        padding: 25px;
+    .short-intro {
+        top: 48%;
+    }
+
+    .cv-intro {
+        padding: 6% 2% 6% 2%;
     }
 
     .intro-text {
         font-size: 19px;
-        margin-top: 25px;
+        margin-top: 0;
     }
 
     .intro-text2 {
@@ -1304,7 +1302,16 @@ li{
 @media only screen and (max-width: 1270px) {
 
     .cv-intro {
-        height: 300px;
+        padding: 6% 2% 6% 2%;
+    }
+
+    .intro-text{
+        line-height: 200%;
+        margin-top: 0;
+    }
+
+    .intro-text2{
+        line-height: 200%;
     }
 
     .comm-pics{
@@ -1314,29 +1321,12 @@ li{
     .communication {
         padding: 60px;
     }
-
-    .intro-text{
-        margin-left: 15%;
-        margin-right: 15%;
-        line-height: 200%;
-        margin-top: -50px
-    }
-
-    .intro-text2{
-        margin-left: 17%;
-        margin-right: 17%;
-        line-height: 200%;
-    }
-
-    .cv-intro{
-        padding: 10%;
-    }
 }
 
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1215px) {
 
     .cv-intro{
-        padding: 10% 15% 15% 15%;
+        padding: 7% 0 7% 0;
     }
 
     .pdf{
@@ -1345,509 +1335,806 @@ li{
     }
 }
 
-@media only screen and (max-width: 1140px){
+@media only screen and (max-width: 1170px) {
+
+    .cv-intro {
+        padding: 8% 0% 8% 0%;
+    }
 
     .intro-text{
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 13%;
+        margin-right: 13%;
     }
 
     .intro-text2{
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 16%;
+        margin-right: 16%;
+        margin-top: 3%;
     }
+}
 
-    .comm-pics{
-        transform: scale(0.75)
-    }
+@media only screen and (max-width: 1140px){
 
-    .jobs h4{
-        width: auto;
-        font-size: 20px;
-        margin-top: 3px;
-    }
+       .comm-pics{
+           transform: scale(0.75)
+       }
+
+       .jobs h4{
+           width: auto;
+           font-size: 20px;
+           margin-top: 3px;
+       }
 }
 
 @media only screen and (max-width: 1040px){
 
-    .comm-pics{
-        transform: scale(0.7)
+       .comm-pics{
+           transform: scale(0.7)
+       }
+
+       .pdf{
+           margin-top: 5.5%;
+           margin-left: 40%;
+       }
+   }
+
+   /*RESPONSIVE MOBILE*/
+@media only screen and (max-width: 1000px) {
+
+    .comm-pics {
+        transform: scale(0.6)
     }
 
-    .pdf{
-        margin-top: 5.5%;
-        margin-left: 40%;
+    .short-intro {
+        width: 85%;
+        top: 48%;
     }
 }
 
-/*RESPONSIVE MOBILE*/
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 900px) {
 
-    .card-wrapper{
-        height: 950px;
-        width: 650px;
+    .comm-pics {
+        transform: scale(0.5)
     }
 
-
-    .card-btn {
-        font-size: 100px;
-        margin-bottom: 30px;
-        animation: animate 3s infinite;
-        color: yellow;
-        margin-top: 400px;
-        margin-left: 430px;
+    .short-intro {
+        top: 46%;
     }
 
-    .Initial {
-        font-size: 30px;
-        margin-top: 40%;
+    .intro-text {
+        font-size: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
-    .x-btn{
-        bottom: 2%;
-        right: 4%;
-        font-size: 50px;
+    .intro-text2 {
+        font-size: 20px;
+        margin-left: 11%;
+        margin-right: 11%;
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .comm-pics {
+        transform: scale(0.4);
     }
 
-    .x-btn:hover{
-        font-size: 50px;
-    }
-
-    .short-intro{
-        width: 90%;
-        height: 900px;
-        padding: 50px;
-        top: 54%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+    .short-intro {
+        width: 80%;
+        top: 50%;
+        padding: 50px 50px 100px 50px;
     }
 
     .short-intro h1 {
-        margin-top: 7%;
-        font-size: 35px;
+        font-size: 22px;
     }
 
     .short-intro-text, .short-intro-text2{
-        font-size: 30px;
-        margin-top: 5%;
+        font-size: 16px;
+        margin-top: 4%;
     }
 
     .back-btn2 {
-        font-size: 30px;
+        font-size: 16px;
+        left: 44%;
+    }
+
+    .cv-intro {
+        padding: 12% 0% 12% 0%;
+    }
+
+    .intro-text {
+        font-size: 20px;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .intro-text2 {
+        font-size: 20px;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 4%;
+    }
+
+}
+
+@media only screen and (max-width: 630px){
+
+    .cv-intro {
+        padding: 12% 0% 12% 0%;
+    }
+
+    .intro-text {
+        font-size: 21px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .intro-text2 {
+        font-size: 21px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 6%;
+    }
+
+}
+
+    @media only screen and (max-width: 550px) {
+
+    .card-btn {
+        font-size: 50px;
+        margin-top: 220px;
+        margin-left: 250px;
+    }
+
+    .card-wrapper{
+        height: 500px;
+        width: 350px;
+    }
+
+    .Initial {
+        margin-top: 43%;
     }
 
     .contact-icons{
-        margin-top: 20%;
-        margin-left: 30%;
-        margin-right: 30%;
+        margin-top: 25%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
-    .pdf-icon {
-        font-size: 60px;
+    .short-intro {
+        width: 70%;
     }
 
-    .pdf-card {
-        margin-top: -34px;
+    .short-intro h1{
+        margin-bottom: 20px;
     }
 
-    .card-icon-link {
-        width: 58px;
-        height: 58px;
-        border: 2px solid white;
-        border-radius: 5px;
+    .short-intro-text, .short-intro-text2 {
+        margin-top: 6%;
     }
 
-    .card-icon{
-        font-size: 50px;
+    .cv-intro {
+        padding: 15% 0% 15% 0%;
     }
 
-    .email {
-        font-size: 70px;
-    }
-
-    .header{
-        height: 230px;
-    }
-
-    .logo-name{
-        margin-top: 5.5%;
-        margin-left: 4%;
-        height: 110px;
-        width: 460px;
-        position: relative;
-        justify-content: space-around;
-    }
-
-    .logo{
-        width: 25%;
-        border: 5px solid blueviolet;
-        padding: 0.5%;
-        border-radius: 50%;
-    }
-
-    .name{
-        font-size: 35px;
-    }
-
-    .pdf{
-        margin-top: 7%;
-        margin-left: 0;
-        margin-right: -20%;
-    }
-
-    .pdf:hover .download-cv{
-        visibility: hidden;
-    }
-
-    .menu{
-        margin-top: 5%;
+    .intro-text {
+        margin-left: 5%;
         margin-right: 5%;
-        font-size: 60px;
     }
 
-    .menu-position{
-        margin-left: -130px;
-    }
-
-    .sub-menu{
-        font-size: 25px;
-        width: 230px;
-        border-radius: 2%;
-        padding: 5px;
-        margin-top: 20px;
-    }
-
-    .sub-menu a{
-        width: 200px;
-        line-height: 200%;
-    }
-
-    .menu:hover{
-        color: white;
-    }
-    .menu:hover .sub-menu{
-        display: none;
-    }
-
-    .slide{
-        height: 800px;
-    }
-
-    .content{
-        width: 500px;
-        top: 5%;
-        left: 5%;
-    }
-
-    .promo-content {
-        top: -100px;
-    }
-
-    .promo-text {
-        max-width: 120em;
-    }
-
-    .promo-title {
-        display: inline-block;
-        padding: .7em 1em;
-        font-size: 2.5em;
-        margin-left: -5%;
-    }
-
-    .promo-lede {
-        padding: .7em 1em .8em 2.5em;
-        font-size: 2.3em;
-        margin-left: 25%;
-        margin-bottom: 3%;
-        margin-right: -25%;
-    }
-
-    .cv-intro{
-        padding: 140px 90px 140px 90px;
-        height: auto;
-    }
-
-    .intro-text{
-        font-size: 28px;
-        color: #4e4e4e;
-        line-height: 180%;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: -50px;
-    }
-
-    .intro-text2{
-        font-size: 28px;
-        color: #4e4e4e;
-        line-height: 180%;
-        margin-top: 30px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .experience{
-        height: auto;
-        background-color: #4e4e4e;
+    .intro-text2 {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8%;
     }
 
     .exp-title{
-        font-size: 35px;
-        padding: 65px;
+        font-size: 15px;
     }
 
-    .jobs{
-        height: auto;
-        position: relative;
-        display: flex;
+    .education h1 {
+        font-size: 30px;
+    }
+
+    .tech h1 {
+        font-size: 30px;
+    }
+
+    .comm-pics {
         flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 35px;
         align-items: center;
-        font-size: 25px;
-        background-color: white;
-        margin: 0 auto;
     }
 
-    .jobs h4 {
-        font-weight: revert;
-        color: #6e6e6e;
+    .communication {
+        height: 45em;
+        padding: 5px 30px 5px 30px;
+
     }
 
-    .blk img{
-        margin-top: 15%;
-        margin-bottom: 13%;
-        margin-left: 13%;
-        transform: scale(1.3);
-    }
-
-    .vf img{
-        margin-top: 3%;
-        margin-bottom: 15%;
-        margin-left: -5%;
-        transform: scale(1.5);
-    }
-
-    .ice img{
-        margin-top: 1%;
-        margin-bottom: 15%;
-        margin-left: -6%;
-        transform: scale(1.5);
-    }
-
-    .abbott img{
-        margin-bottom: 10%;
-        margin-left: -2%;
-        transform: scale(1.5);
-    }
-
-    .nuskin img{
-        margin-top: 8%;
-        margin-bottom: 15%;
-        margin-left: 10%;
-        transform: scale(1.5);
-    }
-
-    .blk:hover, .vf:hover, .ice:hover, .abbott:hover, .nuskin:hover{
-        border: revert;
-        box-shadow: 0 0 15px #908d78;
-    }
-
-    .blk-details, .vf-details, .ice-details, .abbott-details, .nuskin-details {
-        line-height: 160%;
-        font-size: 25px;
-        color: #525252;
-        font-family: 'Roboto', sans-serif;
-        width: 800px;
-        height: 1250px;
-        box-shadow: 0 0 60px #424137;
-        padding: 2%;
-    }
-
-    .vf-details{
-        height: 820px;
-    }
-
-    .ice-details{
-        height: 600px;
-    }
-
-    .abbott-details{
-        height: 1000px;
-    }
-
-    .nuskin-details{
-        height: 1050px;
-    }
-
-    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1{
-        font-size: 30px;
-        letter-spacing: 3px;
-        line-height: 180%;
-    }
-
-    .back-btn3 , .back-btn4, .back-btn5 , .back-btn6, .back-btn7, .back-btn8 {
-        transition: opacity 2s, color 0.3s;
-        position: absolute;
-        bottom: 5%;
-        left: 47%;
-        font-size: 20px;
-        font-weight: bold;
-        color: #e9e9e9;
-        border: 2px solid #4e4e4e;
-        border-radius: 3px;
-        cursor: pointer;
-        padding: 0.7%;
-        background-color: black;
-    }
-
-    .education h1{
-        font-size: 65px;
-        padding: 65px;
-    }
-
-    .education h2{
-        font-size: 35px;
-        margin-left: 70px;
-        margin-right: 70px;
-        line-height: 150%;
-    }
-
-    .education li{
-        line-height: 150%;
-        margin-left: 50px;
-        margin-right: 50px;
+    .communication h1 {
+        margin-top: -10px;
         font-size: 30px;
     }
 
-    .tech h1{
-        font-size: 65px;
-        padding: 65px;
-    }
-
-    .tech ul{
-        padding: 60px 50px 60px 50px;
-    }
-
-    .tech li{
-        margin-top: 10px;
-        font-size: 30px;
-    }
-
-    .communication{
-        padding: 100px 0 100px 0;
-    }
-
-    .communication h1{
-        font-size: 65px;
-    }
-
-    .communication li{
-        font-size: 27px;
-        margin-top: 10px;
-        width: 700px;
-    }
-
-    .language{
-        padding: 90px;
+    .comm-pics {
+        transform: scale(0.5);
     }
 
     .language h1{
-        font-size: 65px;
-    }
-
-    .language ul{
-        margin-top: 5px;
-    }
-
-    .language li{
         font-size: 30px;
-        margin-top: 15px;
     }
-
-    .contact{
-        height: 500px;
-        padding: 60px;
-    }
-
-    .contact-orientation{
-        width: 569px;
-        display: inline-block;
-    }
-
     .contact h1{
-        font-size: 65px;
-        margin-top: 5px;
-    }
-
-    .phone, .e-mail, .current-loc, .permit, .swiss-number{
         font-size: 30px;
-    }
-
-    .permit{
-        width: 600px;
-    }
-
-    .back-btn:hover, .back-btn2:hover, .back-btn3:hover, .back-btn4:hover, .back-btn5:hover, .back-btn6:hover, .back-btn7:hover, .back-btn8:hover{
-        color: revert;
-    }
-
-    .back-btn:hover{
-        color: blueviolet;
-    }
-
-    .back-btn{
-        font-size: 350%;
-    }
-
-    .bottom-map{
-        height: 500px;
-        padding: 25px;
-    }
-
-    .map-main{
-        font-size: 30px;
-        margin-top: 40px;
-    }
-
-    .map-socialmedia{
-        margin-left: 30%;
-        margin-right: 30%;
-    }
-    .card-icon-link2{
-        width: 50px;
-        height: 50px;
-        border: 2px solid white;
-        border-radius: 5px;
-    }
-
-    .card-icon-link2:hover{
-        border: solid white;
-    }
-
-    .card-icon2{
-        font-size: 40px;
-        top: 3.2%;
-        left: 3.2%;
-    }
-
-    .card-icon2:hover{
-        color: white;
-    }
-
-    .email2{
-        font-size: 60px;
-        margin-top: 2%;
-    }
-
-    .email2:hover {
-        color: white;
-    }
-
-    .pdf-icon2{
-        font-size: 53px;
-    }
-
-    .pdf-icon2:hover{
-        color: white;
     }
 }
+
+
+@media only screen and (max-width: 465px){
+
+    .intro-text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .intro-text2 {
+        margin-left: 13%;
+        margin-right: 13%;
+        margin-top: 8%;
+    }
+
+}
+
+
+@media only screen and (max-width: 430px){
+
+    .card-btn {
+        font-size: 50px;
+        margin-top: 150px;
+        margin-left: 170px;
+    }
+
+    .card-wrapper{
+        height: 350px;
+        width: 250px;
+    }
+
+    .exp-title{
+        font-size: 12px;
+        padding: 65px 20px 65px 20px;
+    }
+
+    .education h1 {
+        font-size: 25px;
+        padding: 65px 20px 65px 20px;
+    }
+
+    .tech h1 {
+        font-size: 25px;
+        padding: 65px 20px 65px 20px;
+    }
+
+    .communication h1 {
+        font-size: 25px;
+        padding: 65px 20px 65px 20px;
+    }
+
+    .language h1{
+        font-size: 25px;
+        padding: 65px 20px 65px 20px;
+    }
+    .contact h1{
+        font-size: 25px;
+        padding: 65px 20px 65px 20px;
+    }
+}
+
+/*.comm-pics {
+    transform: scale(0.6)
+}
+
+.communication {
+    padding: 0 5px 0 5px;
+    height: auto;
+
+}
+
+.pic-left{
+    border: solid lawngreen;
+    align-content: center;
+}
+
+.pic-right{
+    border: solid lawngreen;
+    justify-content: center;
+}*/
+
+
+
+
+    /* .card-wrapper{
+         height: 950px;
+         width: 650px;
+     }
+
+
+     .card-btn {
+         font-size: 100px;
+         margin-bottom: 30px;
+         animation: animate 3s infinite;
+         color: yellow;
+         margin-top: 400px;
+         margin-left: 430px;
+     }
+
+     .Initial {
+         font-size: 30px;
+         margin-top: 40%;
+     }
+
+     .x-btn{
+         bottom: 2%;
+         right: 4%;
+         font-size: 50px;
+     }
+
+     .x-btn:hover{
+         font-size: 50px;
+     }
+
+     .short-intro{
+         width: 90%;
+         top: 54%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+     }
+
+    .short-intro h1 {
+         margin-top: 7%;
+         font-size: 35px;
+     }
+
+     .short-intro-text, .short-intro-text2{
+         font-size: 30px;
+         margin-top: 5%;
+     }
+
+     .back-btn2 {
+         font-size: 30px;
+     }
+
+     .contact-icons{
+         margin-top: 20%;
+         margin-left: 30%;
+         margin-right: 30%;
+     }
+
+     .pdf-icon {
+         font-size: 60px;
+     }
+
+     .pdf-card {
+         margin-top: -34px;
+     }
+
+     .card-icon-link {
+         width: 58px;
+         height: 58px;
+         border: 2px solid white;
+         border-radius: 5px;
+     }
+
+     .card-icon{
+         font-size: 50px;
+     }
+
+     .email {
+         font-size: 70px;
+     }
+
+     .header{
+         height: 230px;
+     }
+
+     .logo-name{
+         margin-top: 5.5%;
+         margin-left: 4%;
+         height: 110px;
+         width: 460px;
+         position: relative;
+         justify-content: space-around;
+     }
+
+     .logo{
+         width: 25%;
+         border: 5px solid blueviolet;
+         padding: 0.5%;
+         border-radius: 50%;
+     }
+
+     .name{
+         font-size: 35px;
+     }
+
+     .pdf{
+         margin-top: 7%;
+         margin-left: 0;
+         margin-right: -20%;
+     }
+
+     .pdf:hover .download-cv{
+         visibility: hidden;
+     }
+
+     .menu{
+         margin-top: 5%;
+         margin-right: 5%;
+         font-size: 60px;
+     }
+
+     .menu-position{
+         margin-left: -130px;
+     }
+
+     .sub-menu{
+         font-size: 25px;
+         width: 230px;
+         border-radius: 2%;
+         padding: 5px;
+         margin-top: 20px;
+     }
+
+     .sub-menu a{
+         width: 200px;
+         line-height: 200%;
+     }
+
+     .menu:hover{
+         color: white;
+     }
+     .menu:hover .sub-menu{
+         display: none;
+     }
+
+     .slide{
+         height: 800px;
+     }
+
+     .content{
+         width: 500px;
+         top: 5%;
+         left: 5%;
+     }
+
+     .promo-content {
+         top: -100px;
+     }
+
+     .promo-text {
+         max-width: 120em;
+     }
+
+     .promo-title {
+         display: inline-block;
+         padding: .7em 1em;
+         font-size: 2.5em;
+         margin-left: -5%;
+     }
+
+     .promo-lede {
+         padding: .7em 1em .8em 2.5em;
+         font-size: 2.3em;
+         margin-left: 25%;
+         margin-bottom: 3%;
+         margin-right: -25%;
+     }
+
+     .cv-intro{
+         padding: 140px 90px 140px 90px;
+         height: auto;
+     }
+
+     .intro-text{
+         font-size: 28px;
+         color: #4e4e4e;
+         line-height: 180%;
+         margin-left: 0;
+         margin-right: 0;
+         margin-top: -50px;
+     }
+
+     .intro-text2{
+         font-size: 28px;
+         color: #4e4e4e;
+         line-height: 180%;
+         margin-top: 30px;
+         margin-left: 0;
+         margin-right: 0;
+     }
+
+     .experience{
+         height: auto;
+         background-color: #4e4e4e;
+     }
+
+     .exp-title{
+         font-size: 35px;
+         padding: 65px;
+     }
+
+     .jobs{
+         height: auto;
+         position: relative;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         padding: 35px;
+         align-items: center;
+         font-size: 25px;
+         background-color: white;
+         margin: 0 auto;
+     }
+
+     .jobs h4 {
+         font-weight: revert;
+         color: #6e6e6e;
+     }
+
+     .blk img{
+         margin-top: 15%;
+         margin-bottom: 13%;
+         margin-left: 13%;
+         transform: scale(1.3);
+     }
+
+     .vf img{
+         margin-top: 3%;
+         margin-bottom: 15%;
+         margin-left: -5%;
+         transform: scale(1.5);
+     }
+
+     .ice img{
+         margin-top: 1%;
+         margin-bottom: 15%;
+         margin-left: -6%;
+         transform: scale(1.5);
+     }
+
+     .abbott img{
+         margin-bottom: 10%;
+         margin-left: -2%;
+         transform: scale(1.5);
+     }
+
+     .nuskin img{
+         margin-top: 8%;
+         margin-bottom: 15%;
+         margin-left: 10%;
+         transform: scale(1.5);
+     }
+
+     .blk:hover, .vf:hover, .ice:hover, .abbott:hover, .nuskin:hover{
+         border: revert;
+         box-shadow: 0 0 15px #908d78;
+     }
+
+     .blk-details, .vf-details, .ice-details, .abbott-details, .nuskin-details {
+         line-height: 160%;
+         font-size: 25px;
+         color: #525252;
+         font-family: 'Roboto', sans-serif;
+         width: 800px;
+         height: 1250px;
+         box-shadow: 0 0 60px #424137;
+         padding: 2%;
+     }
+
+     .vf-details{
+         height: 820px;
+     }
+
+     .ice-details{
+         height: 600px;
+     }
+
+     .abbott-details{
+         height: 1000px;
+     }
+
+     .nuskin-details{
+         height: 1050px;
+     }
+
+     .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1{
+         font-size: 30px;
+         letter-spacing: 3px;
+         line-height: 180%;
+     }
+
+     .back-btn3 , .back-btn4, .back-btn5 , .back-btn6, .back-btn7, .back-btn8 {
+         transition: opacity 2s, color 0.3s;
+         position: absolute;
+         bottom: 5%;
+         left: 47%;
+         font-size: 20px;
+         font-weight: bold;
+         color: #e9e9e9;
+         border: 2px solid #4e4e4e;
+         border-radius: 3px;
+         cursor: pointer;
+         padding: 0.7%;
+         background-color: black;
+     }
+
+     .education h1{
+         font-size: 65px;
+         padding: 65px;
+     }
+
+     .education h2{
+         font-size: 35px;
+         margin-left: 70px;
+         margin-right: 70px;
+         line-height: 150%;
+     }
+
+     .education li{
+         line-height: 150%;
+         margin-left: 50px;
+         margin-right: 50px;
+         font-size: 30px;
+     }
+
+     .tech h1{
+         font-size: 65px;
+         padding: 65px;
+     }
+
+     .tech ul{
+         padding: 60px 50px 60px 50px;
+     }
+
+     .tech li{
+         margin-top: 10px;
+         font-size: 30px;
+     }
+
+     .communication{
+         padding: 100px 0 100px 0;
+     }
+
+     .communication h1{
+         font-size: 65px;
+     }
+
+     .communication li{
+         font-size: 27px;
+         margin-top: 10px;
+         width: 700px;
+     }
+
+     .language{
+         padding: 90px;
+     }
+
+     .language h1{
+         font-size: 65px;
+     }
+
+     .language ul{
+         margin-top: 5px;
+     }
+
+     .language li{
+         font-size: 30px;
+         margin-top: 15px;
+     }
+
+     .contact{
+         height: 500px;
+         padding: 60px;
+     }
+
+     .contact-orientation{
+         width: 569px;
+         display: inline-block;
+     }
+
+     .contact h1{
+         font-size: 65px;
+         margin-top: 5px;
+     }
+
+     .phone, .e-mail, .current-loc, .permit, .swiss-number{
+         font-size: 30px;
+     }
+
+     .permit{
+         width: 600px;
+     }
+
+     .back-btn:hover, .back-btn2:hover, .back-btn3:hover, .back-btn4:hover, .back-btn5:hover, .back-btn6:hover, .back-btn7:hover, .back-btn8:hover{
+         color: revert;
+     }
+
+     .back-btn:hover{
+         color: blueviolet;
+     }
+
+     .back-btn{
+         font-size: 350%;
+     }
+
+     .bottom-map{
+         height: 500px;
+         padding: 25px;
+     }
+
+     .map-main{
+         font-size: 30px;
+         margin-top: 40px;
+     }
+
+     .map-socialmedia{
+         margin-left: 30%;
+         margin-right: 30%;
+     }
+     .card-icon-link2{
+         width: 50px;
+         height: 50px;
+         border: 2px solid white;
+         border-radius: 5px;
+     }
+
+     .card-icon-link2:hover{
+         border: solid white;
+     }
+
+     .card-icon2{
+         font-size: 40px;
+         top: 3.2%;
+         left: 3.2%;
+     }
+
+     .card-icon2:hover{
+         color: white;
+     }
+
+     .email2{
+         font-size: 60px;
+         margin-top: 2%;
+     }
+
+     .email2:hover {
+         color: white;
+     }
+
+     .pdf-icon2{
+         font-size: 53px;
+     }
+
+     .pdf-icon2:hover{
+         color: white;
+     }
+
+     @media only screen and (max-width: 600px){
+
+         .short-intro h1 {
+             margin-top: 7%;
+             font-size: 55px;
+         }
+
+         .short-intro-text, .short-intro-text2{
+             font-size: 35px;
+             margin-top: 5%;
+         }
+
+         .back-btn2 {
+             font-size: 30px;
+         }
+     }*/
+
+
