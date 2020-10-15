@@ -617,10 +617,10 @@ color: #f7ec3c;
 
 .jobs h4{
     width: 170px;
-    font-size: 15px;
-    color: #484848;
+    font-size: 18px;
+    color: #636363;
     font-weight: lighter;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 .jobs h3{
@@ -631,10 +631,12 @@ color: #f7ec3c;
     display: block;
     cursor: pointer;
     padding: 40px;
-    border: 3px solid transparent;
     transition: opacity .3s,  border .4s, box-shadow .5s;
     flex-shrink: 0;
     text-decoration: none;
+    border: solid #eeeeee;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .blk:hover, .vf:hover, .ice:hover, .abbott:hover, .nuskin:hover{
@@ -642,12 +644,23 @@ color: #f7ec3c;
     box-shadow: 0 0 15px #908d78;
 }
 
+.ice, .abbott{
+    padding: 43px;
+}
+
+.vf{
+    padding: 40px 37px 40px 40px;
+}
+
+.nuskin{
+    padding: 38px 45px 39px 45px;
+}
+
 .blk img{
     width: 180px;
     height: 68px;
     margin-top: 15%;
     margin-bottom: 12%;
-    margin-left: 1%;
     flex-shrink: 0;
 }
 
@@ -664,7 +677,6 @@ color: #f7ec3c;
     height: 100px;
     margin-top: 3%;
     margin-bottom: 8%;
-    margin-left: -20%;
     flex-shrink: 0;
 }
 
@@ -677,15 +689,12 @@ color: #f7ec3c;
     height: 100px;
     margin-top: 1%;
     margin-bottom: 9%;
-    margin-left: -21%;
     flex-shrink: 0;
 }
 
 .abbott img{
     width: 155px;
     height: 120px;
-    margin-left: -17%;
-    margin-bottom: -1%;
     flex-shrink: 0;
 }
 
@@ -694,7 +703,6 @@ color: #f7ec3c;
     height: 90px;
     margin-top: 8%;
     margin-bottom: 13%;
-    margin-left: -3%;
     flex-shrink: 0;
 }
 
@@ -744,38 +752,38 @@ ul{
     background-color: white;
     text-align: left;
     line-height: 160%;
-    font-size: 15px;
+    font-size: 16px;
     color: #525252;
     font-family: 'Roboto', sans-serif;
     width: 800px;
-    height: 560px;
+    height: 650px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     box-shadow: 0 0 60px #424137;
-    padding: 3%;
+    padding: 1.5%;
     z-index: 50;
 }
 
 
 .vf-details{
-    height: 400px;
+    height: 480px;
 }
 
 .ice-details{
-    height: 280px;
+    height: 340px;
 }
 
 .abbott-details{
-    height: 450px;
+    height: 510px;
 }
 
 .nuskin-details{
-    width: 630px;
+    height: 570px;
 }
 
 .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1{
-    font-size: 18px;
+    font-size: 19px;
     letter-spacing: 3px;
     line-height: 180%;
 }
@@ -916,7 +924,9 @@ li{
     letter-spacing: 10px;
     color: white;
     margin-top: 10px;
-    background: radial-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.01), transparent)
+    background: radial-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.01), transparent);
+    padding: 0;
+    width: 750px;
 }
 
 .communication li{
@@ -1217,6 +1227,33 @@ li{
         margin-top: 10px;
     }
 
+    .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
+        font-size: 15px;
+        width: 900px;
+        height: 580px;
+        padding: 1.5% 1% 1% 1.5%;
+    }
+
+    .vf-details{
+        height: 470px;
+    }
+
+    .ice-details{
+        height: 340px;
+    }
+
+    .abbott-details{
+        height: 480px;
+    }
+
+    .nuskin-details{
+        height: 520px;
+    }
+
+    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1{
+        font-size: 17px;
+    }
+
     .comm-pics{
         justify-content: center;
     }
@@ -1258,6 +1295,18 @@ li{
         transform: scale(1.1);
         padding: 60px;
         margin: 30px;
+    }
+
+    .nuskin{
+        padding: 58px 69px 58px 69px;
+    }
+
+    .ice{
+        padding: 63px 64px 62px 64px;
+    }
+
+    .abbott{
+        padding: 62px 68px 62px 68px;
     }
 
     .jobs{
@@ -1444,15 +1493,49 @@ li{
         margin-bottom: 3%;
     }
 
-    .comm-pics {
-        transform: scale(0.6)
-    }
-
     .short-intro {
         width: 85%;
         top: 48%;
     }
-}
+
+    .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
+        font-size: 15px;
+        width: 800px;
+        height: 610px;
+        padding: 1.5% 1% 1% 1.5%;
+    }
+
+    .vf-details{
+        height: 460px;
+    }
+
+    .ice-details{
+        height: 340px;
+    }
+
+    .abbott-details{
+        height: 500px;
+    }
+
+    .nuskin-details{
+        height: 560px;
+    }
+
+    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1{
+        font-size: 17px;
+    }
+
+    .comm-pics {
+        transform: scale(0.6)
+    }
+
+    .exp-title {
+        font-size: 25px;
+    }
+    .education h1, .tech h1, .communication h1, .language h1, .contact h1 {
+        font-size: 45px;
+    }
+    }
 
 @media only screen and (max-width: 900px) {
 
@@ -1547,8 +1630,16 @@ li{
         margin-top: 4%;
     }
 
+    .tech h1 {
+        padding: 65px 30px 65px 30px;
+    }
+
     .comm-pics {
         transform: scale(0.5)
+    }
+
+    .communication h1{
+        width: 650px;
     }
 
 }
@@ -1644,6 +1735,24 @@ li{
         margin-right: 6%;
         margin-top: 5%;
         line-height: 160%;
+    }
+
+    .exp-title {
+        font-size: 21px;
+    }
+    .education h1, .tech h1, .communication h1, .language h1, .contact h1 {
+        font-size: 41px;
+    }
+
+    .communication h1{
+        width: 530px;
+    }
+
+    .exp-title, .education h1 {
+        letter-spacing: 9px;
+    }
+    .tech h1, .communication h1, .language h1, .contact h1 {
+        letter-spacing: 6px;
     }
 
 }
@@ -1757,43 +1866,83 @@ li{
     }
 
     .exp-title{
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .education h1 {
-        font-size: 30px;
+        font-size: 32px;
+    }
+
+    .education ul{
+        padding: 15px;
+    }
+
+    .education h2{
+        font-size: 20px;
+    }
+    .education li{
+        font-size: 18px;
     }
 
     .tech h1 {
-        font-size: 30px;
+        font-size: 32px;
+    }
+
+    .tech li{
+        font-size: 18px;
     }
 
     .comm-pics {
         flex-wrap: wrap;
         align-items: center;
+        transform: scale(0.6);
     }
 
     .communication {
-        height: 45em;
-        padding: 5px 30px 5px 30px;
-
+        padding: 0 0 55% 0;
+        height: 500px;
     }
 
     .communication h1 {
-        margin-top: -10px;
-        font-size: 30px;
+        font-size: 32px;
+        width: 440px;
+        margin-bottom: 50px;
     }
 
-    .comm-pics {
-        transform: scale(0.5);
+    .comm-text{
+        top: 46%;
+    }
+
+    .communication li{
+        font-size: 19px;
+    }
+
+    .communication ul{
+        padding: 10px 30px 10px 30px;
     }
 
     .language h1{
-        font-size: 30px;
+        font-size: 32px;
+    }
+
+    .language li{
+        font-size: 18px;
     }
     .contact h1{
-        font-size: 30px;
+        font-size: 32px;
     }
+
+    .phone, .e-mail, .current-loc, .permit{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .swiss-number{
+        font-size: 18px;
+        margin-top: 0;
+        margin-right: 13px;
+    }
+
 }
 
 @media only screen and (max-width: 465px){
@@ -1813,6 +1962,15 @@ li{
         margin-top: 8%;
     }
 
+    .communication {
+        padding: 0px 20px 60% 20px;
+        height: 500px;
+    }
+
+
+    .communication h1 {
+        width: 420px;
+    }
 }
 
 @media only screen and (max-width: 440px){
@@ -1834,8 +1992,8 @@ li{
 
     .logo-name{
         margin-top: 4%;
-        margin-left: 2%;
-        width: 230px;
+        margin-left: 1.5%;
+        width: 215px;
     }
 
     .logo{
@@ -1843,13 +2001,13 @@ li{
     }
 
     .name{
-        font-size: 19px;
+        font-size: 18px;
         letter-spacing: -0.3px;
     }
 
     .pdf{
         margin-top: 13%;
-        margin-left: 78%;
+        margin-left: 80%;
     }
 
     .pdf-icon{
@@ -1860,7 +2018,7 @@ li{
         margin-top: 8%;
         margin-right: 0;
         font-size: 30px;
-        padding: 20px 20px 0 20px;
+        padding: 20px 15px 0 20px;
     }
 
     .sub-menu{
@@ -1957,9 +2115,23 @@ li{
         padding: 65px 20px 65px 20px;
     }
 
+    .communication {
+        padding: 0 0 80% 0;
+        height: 450px;
+    }
+
+    .comm-pics {
+        transform: scale(0.5);
+    }
+
     .communication h1 {
         font-size: 25px;
-        padding: 65px 20px 65px 20px;
+        padding: 30px 0 20px 0;
+        width: 360px;
+    }
+
+    .communication ul{
+        padding: 10px 10px 10px 10px;
     }
 
     .language h1{
@@ -1975,7 +2147,7 @@ li{
 @media only screen and (max-width: 400px) {
 
     .pdf{
-        margin-top: 13%;
+        margin-top: 13.5%;
         margin-left: 77%;
     }
 
@@ -1995,6 +2167,13 @@ li{
         margin-right: 8%;
     }
 
+    .communication h1 {
+        width: 320px;
+    }
+
+    .communication ul{
+        padding: 10px 0 10px 0;
+    }
 }
 
 @media only screen and (max-width: 355px) {
@@ -2025,7 +2204,7 @@ li{
 
     .menu{
         margin-top: 10.5%;
-        margin-right: 0%;
+        margin-right: 0;
         font-size: 28px;
         padding: 20px 15px 0 20px;
     }
@@ -2051,6 +2230,60 @@ li{
     }
     .short-intro-text, .short-intro-text2{
         font-size: 13px;
+    }
+
+    .blk, .vf, .ice, .abbott, .nuskin {
+        transform: scale(1.1);
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .nuskin{
+        padding: 18px 29px 18px 29px;
+    }
+
+    .ice{
+        padding: 23px 24px 22px 24px;
+    }
+
+    .abbott{
+        padding: 22px 28px 22px 28px;
+    }
+
+    .blk{
+        padding: 22px 22px 22px 22px;
+    }
+
+    .education h2{
+        font-size: 18px;
+    }
+    .education li, .tech li, .language li, .phone, .e-mail, .current-loc, .permit{
+        font-size: 16px;
+    }
+
+    .communication {
+        padding: 0 0 80% 0;
+        height: 600px;
+    }
+
+    .communication li{
+        font-size: 17px;
+    }
+
+    .comm-pics {
+        transform: scale(0.4);
+    }
+
+    .communication h1 {
+        padding: 30px 0 20px 0;
+        width: 250px;
+    }
+
+    .exp-title, .education h1 {
+        letter-spacing: 8px;
+    }
+    .tech h1, .communication h1, .language h1, .contact h1 {
+        letter-spacing: 5px;
     }
 
 }
