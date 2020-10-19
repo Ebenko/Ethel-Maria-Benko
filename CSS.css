@@ -1659,29 +1659,31 @@ position: absolute;
         font-size: 17px;
     }
 
+    .blk, .vf, .ice, .abbott, .nuskin {
+        margin: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        transform: scale(0.95);
+    }
+
     .blk{
         padding: 40px 42.5px 40px 42.5px;
-        transform: scale(0.95);
     }
 
     .vf{
         padding: 40px 41px 40px 40px;
-        transform: scale(0.95);
     }
 
     .ice{
         padding: 44px 45px 44px 45px;
-        transform: scale(0.95);
     }
 
     .abbott{
         padding: 43px 58px 43px 58px;
-        transform: scale(0.95);
     }
 
     .nuskin{
-        padding: 40px 63px 41px 63px;
-        transform: scale(0.95);
+        padding: 44px 65px 44px 65px;
     }
 
     .tech h1 {
@@ -1956,26 +1958,26 @@ position: absolute;
     }
 
     .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
-        font-size: 10px;
+        font-size: 11px;
         width: 350px;
-        height: 500px;
+        height: 580px;
         padding: .5% 0 .5% .5%;
     }
 
     .vf-details{
-        height: 370px;
+        height: 380px;
     }
 
     .ice-details{
-        height: 200px;
+        height: 280px;
     }
 
     .abbott-details{
-        height: 350px;
+        height: 450px;
     }
 
     .nuskin-details{
-        height: 300px;
+        height: 510px;
     }
 
     .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1 {
@@ -2025,26 +2027,28 @@ position: absolute;
     }
 
     .communication {
-        padding: 0 0 55% 0;
-        height: 500px;
+        padding: 0 0 0 0;
+        height: auto;
     }
 
     .communication h1 {
         font-size: 32px;
         width: 440px;
-        margin-bottom: 50px;
+        margin-bottom: 90px;
+        margin-top: -100px;
     }
 
     .comm-text{
-        top: 46%;
+        top: 400px;
     }
 
     .communication li{
         font-size: 19px;
+        line-height: 100%;
     }
 
     .communication ul{
-        padding: 10px 30px 10px 30px;
+        padding: 10px 30px 0 30px;
     }
 
     .language{
@@ -2058,7 +2062,7 @@ position: absolute;
     }
 
     .language li{
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .language ul{
@@ -2092,7 +2096,7 @@ position: absolute;
     }
 
     .map-introduction, .map-experience, .map-education, .map-tech, .map-communication, .map-language, .map-contact{
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .map-socialmedia{
@@ -2128,6 +2132,8 @@ position: absolute;
 
     .communication h1 {
         width: 420px;
+        margin-bottom: 90px;
+        margin-top: -120px;
     }
 }
 
@@ -2273,7 +2279,6 @@ position: absolute;
         margin-bottom: 15px;
     }
 
-
     .blk-background, .vf-background, .ice-background, .abbott-background, .nuskin-background{
         height: 130vh;
     }
@@ -2289,7 +2294,7 @@ position: absolute;
     }
 
     .communication {
-        padding: 0 0 80% 0;
+        padding: 0 20px 75% 20px;
         height: 450px;
     }
 
@@ -2337,6 +2342,32 @@ position: absolute;
     .intro-text2 {
         margin-left: 8%;
         margin-right: 8%;
+    }
+
+    .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
+        font-size: 11px;
+        width: 330px;
+        height: 600px;
+    }
+
+    .vf-details{
+        height: 400px;
+    }
+
+    .ice-details{
+        height: 280px;
+    }
+
+    .abbott-details{
+        height: 450px;
+    }
+
+    .nuskin-details{
+        height: 530px;
+    }
+
+    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1 {
+        font-size: 12px;
     }
 
     .communication h1 {
@@ -2392,9 +2423,9 @@ position: absolute;
 
     .menu{
         margin-top: 10.5%;
-        margin-right: 3%;
+        margin-right: 5%;
         font-size: 28px;
-        padding: 20px 15px 0 20px;
+        padding: 20px 0 0 20px;
     }
 
     .menu-position{
@@ -2446,32 +2477,39 @@ position: absolute;
     .jobs li{
         line-height: 130%;
     }
+    .blk, .vf, .ice, .abbott, .nuskin {
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
     .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
-        font-size: 10px;
+        font-size: 11px;
         width: 300px;
         height: 500px;
         padding: .5% 0 .5% .5%;
     }
 
     .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1 {
-        font-size: 11px;
+        font-size: 12px;
         line-height: 150%;
+        letter-spacing: 0;
     }
 
     .vf-details{
-        height: 370px;
+        height: 365px;
     }
 
     .ice-details{
-        height: 200px;
+        height: 230px;
     }
 
     .abbott-details{
-        height: 350px;
+        height: 410px;
     }
 
     .nuskin-details{
-        height: 300px;
+        height: 440px;
     }
 
     .education h2{
@@ -2482,8 +2520,8 @@ position: absolute;
     }
 
     .communication {
-        padding: 0 0 80% 0;
-        height: 600px;
+        padding: 0 0 40% 0;
+        height: 650px;
     }
 
     .communication li{
@@ -2495,7 +2533,7 @@ position: absolute;
     }
 
     .communication h1 {
-        padding: 30px 0 20px 0;
+        padding: 30px 0 10px 0;
         width: 250px;
     }
 
@@ -2525,6 +2563,10 @@ position: absolute;
         margin-top: 0;
         margin-right: 10px;
         padding: 0;
+    }
+
+    .map-introduction, .map-experience, .map-education, .map-tech, .map-communication, .map-language, .map-contact{
+        font-size: 13px;
     }
 
 }
