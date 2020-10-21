@@ -67,6 +67,31 @@ body { height: 100%; overflow: hidden}*/
     100% {transform: rotate(0)}
 }
 
+.open{
+    position: relative;
+    color: rgba(255, 255, 255, 0.56);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.48);
+    padding: 4px 4px 7px 4px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    font-size: 25px;
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    justify-content: center;
+    animation: fadeIn ease-in-out 5s both infinite;
+    animation-delay: 4s;
+
+}
+
+@keyframes fadeIn{
+    0%{opacity:0}
+    50%{opacity:1}
+    100%{opacity:0}
+}
+
 .Initial{
     opacity: 0;
     visibility: hidden;
@@ -210,11 +235,11 @@ body { height: 100%; overflow: hidden}*/
 .card-icon{
     font-size: 23px;
     color: white;
-    transition: color 1s;
+    transition: color 1.2s;
     align-items: center;
     justify-items: center;
-    top: 3%;
-    left: 3%;
+    top: 4%;
+    left: 4%;
 }
 
 .card-icon:hover{
@@ -1391,8 +1416,12 @@ position: absolute;
         transform: scale(0.8)
     }
 
+    .communication h1{
+        margin-top: -10px;
+    }
+
     .communication {
-        padding: 60px;
+        padding: 70px 50px 20px 50px;
     }
 
     .language ul{
@@ -1427,6 +1456,14 @@ position: absolute;
         margin-left: 16%;
         margin-right: 16%;
         margin-top: 3%;
+    }
+
+    .communication h1{
+        margin-top: -15px;
+    }
+
+    .communication {
+        padding: 70px 50px 15px 50px;
     }
 }
 
@@ -1534,6 +1571,14 @@ position: absolute;
 
     .comm-pics {
         transform: scale(0.6)
+    }
+
+    .communication h1{
+        margin-top: 0;
+    }
+
+    .communication {
+        padding: 60px 50px 10px 50px;
     }
 
     .exp-title {
@@ -1698,6 +1743,11 @@ position: absolute;
         width: 650px;
     }
 
+    .map-socialmedia{
+        margin-top: 70px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 }
 
 @media only screen and (max-width: 720px) {
@@ -2150,6 +2200,13 @@ position: absolute;
         width: 275px;
     }
 
+    .open{
+        padding: 5px;
+        width: 100px;
+        margin-top: 80px;
+        font-size: 20px;
+    }
+
     .header{
         height: 140px;
     }
@@ -2477,6 +2534,7 @@ position: absolute;
     .jobs li{
         line-height: 130%;
     }
+
     .blk, .vf, .ice, .abbott, .nuskin {
         margin: 0px;
         margin-top: 10px;
@@ -2567,6 +2625,47 @@ position: absolute;
 
     .map-introduction, .map-experience, .map-education, .map-tech, .map-communication, .map-language, .map-contact{
         font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+
+    .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
+        width: 270px;
+        height: 470px;
+    }
+
+    .jobs li{
+        line-height: 120%;
+        letter-spacing: 0;
+        font-size: 10px;
+    }
+
+    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1 {
+        font-size: 11px;
+        line-height: 150%;
+        letter-spacing: 0;
+    }
+
+    .vf-details{
+        height: 340px;
+    }
+
+    .ice-details{
+        height: 220px;
+    }
+
+    .abbott-details{
+        height: 370px;
+    }
+
+    .nuskin-details{
+        height: 410px;
+    }
+
+    .map-introduction, .map-experience, .map-education, .map-tech, .map-communication, .map-language, .map-contact{
+        font-size: 12px;
     }
 
 }

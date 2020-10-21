@@ -35,6 +35,9 @@ $(document).ready(function(){
     document.querySelector('.card-btn')
         .style.display = 'none';
 
+    document.querySelector('.open')
+        .style.display = 'none';
+
     document.querySelector('.Initial')
         .style.cssText = 'opacity: 1; visibility: visible';
     document.querySelector('.contact-icons')
@@ -53,6 +56,9 @@ document.querySelector('.x-btn').addEventListener(
     'click', ()=> {
     document.querySelector('.card-btn')
     .style.display = 'flex';
+
+    document.querySelector('.open')
+        .style.cssText = 'opacity: 1; visibility: visible';
 
     document.querySelector('.Initial')
     .style.cssText = 'opacity: 0; visibility: hidden';
