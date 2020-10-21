@@ -1354,6 +1354,11 @@ position: absolute;
         color: white;
     }
 
+    .pdf-card-icon:hover{
+        color: white;
+}
+
+
     .pdf-icon:hover, .email:hover{
         color: white;
     }
