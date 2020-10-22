@@ -1,33 +1,12 @@
 
+// To start always from the top of the page:
 
 window.onbeforeunload = function () {
     window.scrollTo(0,0);
 };
 
 
-/*
-if (window.cvPage.reload(true)){
-    cvPage.scrollTo(0,0)
-}
-
-cvPage.addEventListener('onbeforeunload', function() {
-    window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: 'smooth'
-    });
-});
-
-
-const cvPage = document.querySelector('.full-cv');
-
-window.onscroll = function() {scrollFunction()};
-
-cvPage.onbeforeunload = function () {
-    cvPage.scrollTo(0,0);
-};*/
-
-/*click handle*/
+//click handle:
 
 $(document).ready(function(){
     document.querySelector('.card-btn').addEventListener
@@ -49,9 +28,11 @@ $(document).ready(function(){
         .style.background= '#292929';
 
 });
-}) ;
+});
 
-/*click x-btn*/
+
+//click x-btn:
+
 document.querySelector('.x-btn').addEventListener(
     'click', ()=> {
     document.querySelector('.card-btn')
@@ -72,7 +53,8 @@ document.querySelector('.x-btn').addEventListener(
 
 });
 
-/*click Short Introduction*/
+//click Short Introduction:
+
 document.querySelector('.introduction-btn').addEventListener(
     'click', ()=> {
 
@@ -85,7 +67,8 @@ document.querySelector('.introduction-btn').addEventListener(
     });
 
 
-/*click back-btn2*/
+//click back-btn2:
+
 document.querySelector('.back-btn2').addEventListener(
     'click', ()=> {
         document.querySelector('.short-intro')
@@ -99,7 +82,7 @@ document.querySelector('.back-btn2').addEventListener(
 
     });
 
-/*click Full CV*/
+//click Full CV:
 
 $(document).ready(function(){
     document.querySelector('.full-cv-btn').addEventListener
@@ -121,7 +104,8 @@ $(document).ready(function(){
 });
 
 
-/*click logo to back*/
+//click logo to back:
+
 document.querySelector('.logo').addEventListener(
     'click', ()=> {
     document.querySelector('.full-cv')
@@ -134,7 +118,8 @@ document.querySelector('.logo').addEventListener(
     .style.background= '#292929';
 });
 
-//smooth scroll down after click in sub-menu options
+//smooth scroll down after click in sub-menu options:
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -145,17 +130,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-/*click back-btn to top*/
-
-/*document.querySelector('.back-btn').addEventListener(
-    'click', ()=> {
-    window.scrollTo(screenTop);
-
-});
-
-$('html, body').animate({
-    scrollTop: $(".back-btn").offset().top
-}, 0);});*/
+//click arrow to top:
 
 const btnScroll = document.querySelector('.back-btn');
 
@@ -180,50 +155,7 @@ btnScroll.addEventListener('click', function() {
 });
 
 
-/*
-//Get the button:
-mybutton = document.getElementsByClassName("back-btn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        btnScroll.style.display = "block";
-    } else {
-        btnScroll.style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}*/
-
-
-//Dropdown menu
-
-/*$(document).ready(function(){
-    if ($(window).width() < 1000) {
-        $('.menu').click(function(e) {
-        e.preventDefault();
-        $('.sub-menu').slideToggle();
-
-                         $(".sub-menu",this).slideToggle('slow');
-
-                        return true;
-        });
-    }});*/
-/*$(document).on("click", function(event){
-    let $trigger = $(".menu");
-    if($trigger !== event.target && !$trigger.has(event.target).length){
-        $(".sub-menu").slideUp();
-    }
-});*/
-/* $(this).toggleClass("active");
- $("ul", this).slideToggle("slow");*/
-
+//Dropdown menu just for touch-screen size:
 
 $(document).ready(function(){
     if ($(window).width() < 1410) {
@@ -235,27 +167,8 @@ $(document).ready(function(){
     }
 });
 
-
-/*click email icon
-document.querySelector('.email').addEventListener
-('click', ()=> {
-
-    document.querySelector('.email-popup')
-        .style.cssText = 'opacity: 1; visibility: visible';
-});*/
-/*click back-btn8
-document.querySelector('.back-btn8').addEventListener(
-    'click', ()=> {
-        document.querySelector('.email-popup')
-            .style.display = 'none';
-
-        document.querySelector('.card-wrapper')
-            .style.background= '#292929';
-
-    });*/
-
-
     //BLACKROCK DETAILS:
+
 /*
 document.querySelector('.blk').addEventListener
 ('click', ()=> {
@@ -286,20 +199,7 @@ document.querySelector('.back-btn3').addEventListener(
             .style.display = 'none';
     });
 
-/*/
-window.push = function() {pushfunction()};
 
-    function pushfunction() {
-
-    $('.blk').click(function(e) {
-        e.preventDefault();
-        $('body').css('overflow', 'auto');
-    });*/
-
-/*
-$(document).on('hidden.bs.modal', function () {
-    $('body').addClass('modal-open');
-});*/
 
     //VODAFONE DETAILS:
 
@@ -338,6 +238,7 @@ document.querySelector('.back-btn4').addEventListener(
         .style.display = 'none';
 });
 
+
     //ICE DETAILS:
 
 document.querySelector('.ice').addEventListener
@@ -358,6 +259,7 @@ document.querySelector('.back-btn5').addEventListener(
         .style.display = 'none';
 });
 
+
     //ABBOTT DETAILS:
 
 document.querySelector('.abbott').addEventListener
@@ -377,6 +279,7 @@ document.querySelector('.back-btn6').addEventListener(
     document.querySelector('.abbott-background')
         .style.display = 'none';
 });
+
 
     //NU SKIN DETAILS:
 

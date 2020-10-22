@@ -1,0 +1,1472 @@
+
+/*RESPONSIVE WEB*/
+
+@media only screen and (max-width: 2105px){
+
+    .intro-text{
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+
+    .intro-text2{
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+}
+
+@media only screen and (max-width: 2070px){
+
+
+    .intro-text{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .intro-text2{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .pdf{
+        margin-top: 2.6%;
+    }
+}
+
+@media only screen and (max-width: 1805px){
+    .intro-text{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .intro-text2{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .pdf{
+        margin-top: 2.8%;
+        margin-left: 55%;
+    }
+
+    .intro-text{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 1580px){
+    .intro-text{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .intro-text2{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .logo-name {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .pdf{
+        margin-top: 4.5%;
+        margin-left: 50%;
+    }
+
+    .menu {
+        margin-top: 3%;
+        margin-right: 2.3%;
+    }
+
+    .sub-menu{
+        margin-top: 10px;
+    }
+
+    .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
+        font-size: 15px;
+        width: 900px;
+        height: 580px;
+        padding: 1.5% 1% 1% 1.5%;
+    }
+
+    .vf-details{
+        height: 470px;
+    }
+
+    .ice-details{
+        height: 340px;
+    }
+
+    .abbott-details{
+        height: 480px;
+    }
+
+    .nuskin-details{
+        height: 520px;
+    }
+
+    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1{
+        font-size: 17px;
+    }
+
+    .comm-pics{
+        justify-content: center;
+    }
+
+    .intro-text{
+        margin-top: 15px;
+    }
+
+    .language ul{
+        margin-top: -5px;
+    }
+}
+
+/*Small laptops and tablet size*/
+@media only screen and (max-width: 1410px) {
+
+    .short-intro {
+        top: 48%;
+    }
+
+    .cv-intro {
+        padding: 6% 2% 6% 2%;
+    }
+
+    .intro-text {
+        font-size: 19px;
+        margin-top: 0;
+    }
+
+    .intro-text2 {
+        font-size: 19px;
+    }
+
+    .comm-pics{
+        transform: scale(0.9)
+    }
+
+    .blk, .vf, .ice, .abbott, .nuskin {
+        transform: scale(1.1);
+        padding: 60px;
+        margin: 30px;
+    }
+
+    .nuskin{
+        padding: 58px 69px 58px 69px;
+    }
+
+    .ice{
+        padding: 63px 64px 62px 64px;
+    }
+
+    .abbott{
+        padding: 62px 68px 62px 68px;
+    }
+
+    .jobs{
+        padding: 15px;
+    }
+
+    .card-icon-link:hover{
+        border: 1px solid white;
+    }
+
+    .card-icon:hover{
+        color: white;
+    }
+
+    .pdf-card-icon:hover{
+        color: white;
+    }
+
+
+    .pdf-icon:hover, .email:hover{
+        color: white;
+    }
+
+    .menu:hover{
+        color: white;
+    }
+
+    .menu:hover .sub-menu{
+        display: none;
+    }
+
+    .back-btn:hover, .back-btn2:hover, .back-btn3:hover, .back-btn4:hover, .back-btn5:hover, .back-btn6:hover, .back-btn7:hover, .back-btn8:hover{
+        color: revert;
+    }
+
+    .back-btn:hover{
+        color: blueviolet;
+    }
+
+    .pdf-icon2:hover{
+        color: white;
+    }
+
+    .card-icon-link2:hover{
+        border: solid white;
+    }
+
+    .card-icon2:hover{
+        color: white;
+    }
+
+    .email2:hover {
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 1270px) {
+
+    .pdf{
+        margin-top: 4.7%;
+        margin-left: 42%;
+    }
+
+    .cv-intro {
+        padding: 6% 2% 6% 2%;
+    }
+
+    .intro-text{
+        line-height: 200%;
+        margin-top: 0;
+    }
+
+    .intro-text2{
+        line-height: 200%;
+    }
+
+    .comm-pics{
+        transform: scale(0.8)
+    }
+
+    .communication h1{
+        margin-top: -10px;
+    }
+
+    .communication {
+        padding: 70px 50px 20px 50px;
+    }
+
+    .language ul{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1215px) {
+
+    .cv-intro{
+        padding: 7% 0 7% 0;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    .pdf{
+        margin-top: 5%;
+        margin-left: 38%;
+    }
+
+    .cv-intro {
+        padding: 8% 0 8% 0;
+    }
+
+    .intro-text{
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+
+    .intro-text2{
+        margin-left: 16%;
+        margin-right: 16%;
+        margin-top: 3%;
+    }
+
+    .communication h1{
+        margin-top: -15px;
+    }
+
+    .communication {
+        padding: 70px 50px 15px 50px;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+
+    .promo-content {
+        top: -20px;
+    }
+
+    .promo-text {
+        padding: 1% 5%;
+        max-width: 150em;
+    }
+
+    .promo-title {
+        padding: .8em 1em;
+        font-size: 1.7em;
+        margin-left: 20%;
+    }
+
+    .promo-lede {
+        padding: .8em 1em .8em 2em;
+        font-size: 1.7em;
+        margin-left: 40%;
+        margin-bottom: 3%;
+    }
+
+    .comm-pics{
+        transform: scale(0.75)
+    }
+
+    .jobs h4{
+        width: auto;
+        font-size: 20px;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (max-width: 1040px){
+
+    .comm-pics{
+        transform: scale(0.7)
+    }
+
+}
+
+/*RESPONSIVE MOBILE*/
+@media only screen and (max-width: 1000px) {
+
+    .logo-name{
+        margin-top: 3%;
+        margin-left: 3%;
+        width: 450px;
+        position: absolute;
+    }
+
+    .pdf{
+        margin-top: 6.8%;
+        margin-left: 82%;
+    }
+
+    .menu{
+        margin-top: 4.5%;
+    }
+
+    .promo-title {
+        padding: .8em 1em;
+        font-size: 1.5em;
+        margin-left: 18%;
+    }
+
+    .promo-lede {
+        padding: .8em 1em .8em 2em;
+        font-size: 1.5em;
+        margin-left: 40%;
+        margin-bottom: 3%;
+    }
+
+    .short-intro {
+        width: 85%;
+        top: 48%;
+    }
+
+    .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
+        width: 600px;
+        height: 680px;
+        line-height: 100%;
+    }
+
+    .vf-details{
+        height: 480px;
+    }
+
+    .ice-details{
+        height: 350px;
+    }
+
+    .abbott-details{
+        height: 520px;
+    }
+
+    .nuskin-details{
+        height: 580px;
+    }
+
+    .comm-pics {
+        transform: scale(0.6)
+    }
+
+    .communication h1{
+        margin-top: 0;
+    }
+
+    .communication {
+        padding: 60px 50px 10px 50px;
+    }
+
+    .exp-title {
+        font-size: 25px;
+    }
+    .education h1, .tech h1, .communication h1, .language h1, .contact h1 {
+        font-size: 45px;
+    }
+
+    .tech{
+        padding: 0 0 55px 0;
+        margin: 0;
+    }
+
+    .tech h1{
+        padding: 65px 0 65px 0;
+        margin: 0;
+    }
+
+    .tech ul{
+        margin-top: 30px;
+    }
+
+    .language ul{
+        margin-top: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .logo-name{
+        margin-top: 3.5%;
+        margin-left: 2.5%;
+        width: 400px;
+    }
+
+    .logo{
+        width: 24%;
+        padding: 0.5%;
+        border-radius: 50%;
+    }
+
+    .name{
+        font-size: 26px;
+    }
+
+    .pdf{
+        margin-top: 7.7%;
+        margin-left: 80%;
+        height: 35px;
+    }
+
+    .pdf:hover .download-cv{
+        visibility: hidden;
+    }
+
+    .menu{
+        margin-top: 5%;
+        margin-right: 3%;
+        font-size: 35px;
+        padding: 20px 20px 0 20px;
+    }
+
+    .menu-position{
+        position: relative;
+        margin-left: -100px;
+        display: block;
+    }
+
+    .sub-menu{
+        margin-top: 5px;
+    }
+
+    .content h3{
+        font-size: 40px;
+    }
+
+    .slide{
+        height: 400px;
+    }
+
+    /* .sub-menu{
+        font-size: 15px;
+        width: 140px;
+        list-style-type: none;
+        position: absolute;
+        display: none;
+        border-radius: 2%;
+        padding: 5px;
+        margin-top: 3px;
+        z-index: 50;
+        background-color: black;
+        font-weight: bold;
+    }
+
+    .sub-menu a{
+        color: white;
+        display: inline-block;
+        padding: 12px;
+        text-decoration: none;
+        width: 116px;
+    }*/
+
+    .short-intro {
+        top: 46%;
+    }
+
+    .intro-text {
+        font-size: 16px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .intro-text2 {
+        font-size: 16px;
+        margin-left: 11%;
+        margin-right: 11%;
+        margin-top: 4%;
+    }
+
+    .jobs h4{
+        font-size: 17px;
+    }
+
+    .blk, .vf, .ice, .abbott, .nuskin {
+        margin: 15px 5px;
+        transform: scale(0.95);
+    }
+
+    .blk{
+        padding: 40px 42.5px 40px 42.5px;
+    }
+
+    .vf{
+        padding: 40px 41px 40px 40px;
+    }
+
+    .ice{
+        padding: 44px 45px 44px 45px;
+    }
+
+    .abbott{
+        padding: 43px 58px 43px 58px;
+    }
+
+    .nuskin{
+        padding: 44px 65px 44px 65px;
+    }
+
+    .tech h1 {
+        padding: 65px 30px 65px 30px;
+    }
+
+    .comm-pics {
+        transform: scale(0.5);
+    }
+
+    .communication h1{
+        width: 650px;
+    }
+
+    .map-socialmedia{
+        margin-top: 70px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .logo-name{
+        margin-top: 5%;
+        margin-left: 2.5%;
+        width: 350px;
+    }
+
+    .logo{
+        width: 23%;
+    }
+
+    .name{
+        font-size: 23px;
+    }
+
+    .pdf{
+        margin-top: 10.2%;
+        margin-left: 80%;
+    }
+
+    .menu{
+        margin-top: 7%;
+        margin-right: 2%;
+        font-size: 35px;
+        padding: 20px 20px 0 20px;
+    }
+
+    .sub-menu{
+        margin-top: 10px;
+    }
+
+    .promo-content {
+        top: -40px;
+    }
+
+    .promo-title {
+        padding: .8em 1em;
+        font-size: 1.3em;
+        margin-left: 8%;
+    }
+
+    .promo-lede {
+        padding: .8em 1em .8em 2em;
+        font-size: 1.3em;
+        margin-left: 30%;
+        margin-bottom: 3%;
+    }
+
+    .comm-pics {
+        transform: scale(0.4);
+    }
+
+    .short-intro {
+        width: 80%;
+        top: 50%;
+        padding: 50px 40px 90px 40px;
+    }
+
+    .short-intro h1 {
+        font-size: 20px;
+    }
+
+    .short-intro-text, .short-intro-text2{
+        font-size: 14px;
+        margin-top: 4%;
+        line-height: 150%;
+    }
+
+    .back-btn2 {
+        font-size: 15px;
+        left: 44%;
+    }
+
+    .cv-intro {
+        padding: 12% 0 12% 0;
+    }
+
+    .intro-text {
+        font-size: 15px;
+        margin-left: 8%;
+        margin-right: 8%;
+        line-height: 160%;
+    }
+
+    .intro-text2 {
+        font-size: 15px;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 5%;
+        line-height: 160%;
+    }
+
+    .exp-title {
+        font-size: 21px;
+    }
+
+    .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
+        font-size: 13px;
+        width: 450px;
+        height: 650px;
+        padding: 1% .5% .5% 1%;
+        line-height: 100%;
+        letter-spacing: 0;
+    }
+
+    .vf-details{
+        height: 450px;
+    }
+
+    .ice-details{
+        height: 300px;
+    }
+
+    .abbott-details{
+        height: 500px;
+    }
+
+    .nuskin-details{
+        height: 590px;
+    }
+
+    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1{
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 160%;
+    }
+
+    .education h1, .tech h1, .communication h1, .language h1, .contact h1 {
+        font-size: 41px;
+    }
+
+    .communication h1{
+        width: 530px;
+    }
+
+    .exp-title, .education h1 {
+        letter-spacing: 9px;
+    }
+    .tech h1, .communication h1, .language h1, .contact h1 {
+        letter-spacing: 6px;
+    }
+
+}
+
+@media only screen and (max-width: 630px){
+
+    .cv-intro {
+        padding: 12% 0 12% 0;
+    }
+
+    .intro-text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .intro-text2 {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 6%;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .card-btn {
+        font-size: 50px;
+        margin-top: 220px;
+        margin-left: 250px;
+    }
+
+    .card-wrapper{
+        height: 500px;
+        width: 350px;
+    }
+
+    .Initial {
+        margin-top: 43%;
+    }
+
+    .contact-icons{
+        margin-top: 25%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .logo-name{
+        margin-top: 6%;
+        margin-left: 2.5%;
+        width: 290px;
+    }
+
+    .logo{
+        width: 23%;
+    }
+
+    .name{
+        font-size: 19px;
+    }
+
+    .pdf{
+        margin-top: 12.4%;
+        margin-left: 78%;
+    }
+
+    .menu{
+        margin-top: 8.5%;
+        margin-right: 1%;
+        font-size: 35px;
+        padding: 20px 20px 0 20px;
+    }
+
+    .promo-content {
+        top: -50px;
+    }
+
+    .promo-title {
+        padding: .8em 1em;
+        font-size: 1em;
+        margin-left: 7%;
+    }
+
+    .promo-lede {
+        padding: .8em 1em .8em 2em;
+        font-size: 1em;
+        margin-left: 28%;
+        margin-bottom: 3%;
+    }
+
+    .short-intro h1{
+        margin-bottom: 20px;
+    }
+
+    .short-intro-text, .short-intro-text2 {
+        margin-top: 6%;
+    }
+
+    .cv-intro {
+        padding: 15% 0 15% 0;
+    }
+
+    .intro-text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .intro-text2 {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8%;
+    }
+
+    .exp-title{
+        font-size: 17px;
+    }
+
+    .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
+        font-size: 11px;
+        width: 350px;
+        height: 580px;
+        padding: .5% 0 .5% .5%;
+    }
+
+    .vf-details{
+        height: 380px;
+    }
+
+    .ice-details{
+        height: 280px;
+    }
+
+    .abbott-details{
+        height: 450px;
+    }
+
+    .nuskin-details{
+        height: 510px;
+    }
+
+    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1 {
+        font-size: 12px;
+    }
+
+    .back-btn3 , .back-btn4, .back-btn5 , .back-btn6, .back-btn7, .back-btn8{
+        bottom: 5%;
+        left: 47%;
+        font-size: 10px;
+        font-weight: bold;
+        color: #e9e9e9;
+        border: 2px solid #4e4e4e;
+        border-radius: 3px;
+        cursor: pointer;
+        padding: 0.7%;
+        background-color: black;
+    }
+
+    .education h1 {
+        font-size: 32px;
+    }
+
+    .education ul{
+        padding: 15px;
+    }
+
+    .education h2{
+        font-size: 20px;
+    }
+    .education li{
+        font-size: 18px;
+    }
+
+    .tech h1 {
+        font-size: 32px;
+    }
+
+    .tech li{
+        font-size: 18px;
+    }
+
+    .comm-pics {
+        flex-wrap: wrap;
+        align-items: center;
+        transform: scale(0.6);
+    }
+
+    .communication {
+        padding: 0 0 0 0;
+        height: auto;
+    }
+
+    .communication h1 {
+        font-size: 32px;
+        width: 440px;
+        margin-bottom: 90px;
+        margin-top: -100px;
+    }
+
+    .comm-text{
+        top: 400px;
+    }
+
+    .communication li{
+        font-size: 19px;
+        line-height: 100%;
+    }
+
+    .communication ul{
+        padding: 10px 30px 0 30px;
+    }
+
+    .language{
+        padding: 70px 20px 70px 20px;
+    }
+
+    .language h1{
+        font-size: 32px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .language li{
+        font-size: 17px;
+    }
+
+    .language ul{
+        margin-top: 25px;
+    }
+
+    .contact-orientation{
+        width: 350px;
+    }
+
+    .contact h1{
+        font-size: 32px;
+    }
+
+    .phone, .e-mail, .current-loc, .permit{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .swiss-number{
+        font-size: 18px;
+        margin-top: 0;
+        margin-right: 10px;
+    }
+
+    .map-main{
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+        line-height: 250%;
+    }
+
+    .map-introduction, .map-experience, .map-education, .map-tech, .map-communication, .map-language, .map-contact{
+        font-size: 14px;
+    }
+
+    .map-socialmedia{
+        margin-top: 70px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+}
+
+@media only screen and (max-width: 465px){
+
+    .pdf{
+        margin-top: 13%;
+    }
+
+    .intro-text {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .intro-text2 {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 8%;
+    }
+
+    .communication {
+        padding: 0 20px 60% 20px;
+        height: 500px;
+    }
+
+
+    .communication h1 {
+        width: 420px;
+        margin-bottom: 90px;
+        margin-top: -120px;
+    }
+}
+
+@media only screen and (max-width: 440px){
+
+    .card-btn {
+        font-size: 50px;
+        margin-top: 165px;
+        margin-left: 180px;
+    }
+
+    .card-wrapper{
+        height: 400px;
+        width: 275px;
+    }
+
+    .open{
+        padding: 5px;
+        width: 100px;
+        margin-top: 80px;
+        font-size: 20px;
+    }
+
+    .header{
+        height: 140px;
+    }
+
+    .logo-name{
+        margin-top: 4%;
+        margin-left: 1.5%;
+        width: 215px;
+    }
+
+    .logo{
+        width: 23%;
+    }
+
+    .name{
+        font-size: 18px;
+        letter-spacing: -0.3px;
+    }
+
+    .pdf{
+        margin-top: 13%;
+        margin-left: 80%;
+    }
+
+    .pdf-icon{
+        font-size: 28px;
+    }
+
+    .menu{
+        margin-top: 8%;
+        margin-right: 0;
+        font-size: 30px;
+        padding: 20px 15px 0 20px;
+    }
+
+    .sub-menu{
+        margin-top: 15px;
+    }
+
+    .menu-position{
+        margin-left: -110px;
+    }
+
+    .full-cv-btn{
+        font-size: 27px;
+    }
+
+    .introduction-btn{
+        font-size: 22px;
+    }
+
+    .intro-text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .intro-text2 {
+        margin-left: 12%;
+        margin-right: 12%;
+        margin-top: 8%;
+    }
+
+    .content{
+        width: 200px;
+        top: 8%;
+        left: 8%;
+    }
+
+    .content h3{
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .slide{
+        height: 300px;
+    }
+
+    .promo-content {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 100%;
+        width: 100%;
+        top: -25px;
+        left: 0;
+    }
+    .promo-text {
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 1% 5%;
+        max-width: 150em;
+    }
+
+    .promo-title {
+        display: inline-block;
+        padding: .8em 1em;
+        font-size: .9em;
+        background: hsla(0, 0%, 100%, .75);
+        margin-left: 15px;
+    }
+
+    .promo-lede {
+        padding: .8em 1.5em .8em 1em;
+        font-size: .9em;
+        color: #FFFCED;
+        text-shadow: 1px 1px 3px hsla(277, 47%, 40%, .75);
+        background: hsla(277, 47%, 66%, .75);
+        margin-top: -.5em;
+        margin-left: 30%;
+        margin-bottom: 3%;
+        display: inline-block;
+    }
+
+    .exp-title{
+        font-size: 12px;
+        padding: 65px 20px 65px 20px;
+    }
+
+    .jobs{
+        padding: 35px 5px 35px 5px;
+    }
+
+    .blk, .vf, .ice, .abbott, .nuskin {
+        margin: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .blk-background, .vf-background, .ice-background, .abbott-background, .nuskin-background{
+        height: 130vh;
+    }
+
+    .education h1 {
+        font-size: 25px;
+        padding: 65px 20px 65px 20px;
+    }
+
+    .tech h1 {
+        font-size: 25px;
+        padding: 65px 20px 65px 20px;
+    }
+
+    .communication {
+        padding: 0 20px 75% 20px;
+        height: 450px;
+    }
+
+    .comm-pics {
+        transform: scale(0.5);
+    }
+
+    .communication h1 {
+        font-size: 25px;
+        padding: 30px 0 20px 0;
+        width: 360px;
+    }
+
+    .communication ul{
+        padding: 10px 10px 10px 10px;
+    }
+
+    .language h1{
+        font-size: 25px;
+    }
+    .contact h1{
+        font-size: 25px;
+
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .pdf{
+        margin-top: 13.5%;
+        margin-left: 77%;
+    }
+
+    .short-intro {
+        width: 90%;
+        top: 50%;
+        padding: 30px 5px 70px 5px;
+    }
+
+    .intro-text {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .intro-text2 {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
+        font-size: 11px;
+        width: 330px;
+        height: 600px;
+    }
+
+    .vf-details{
+        height: 400px;
+    }
+
+    .ice-details{
+        height: 280px;
+    }
+
+    .abbott-details{
+        height: 450px;
+    }
+
+    .nuskin-details{
+        height: 530px;
+    }
+
+    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1 {
+        font-size: 12px;
+    }
+
+    .communication h1 {
+        width: 320px;
+    }
+
+    .communication ul{
+        padding: 10px 0 10px 0;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+
+    .card-wrapper{
+        height: 380px;
+        width: 250px;
+    }
+    .card-btn {
+        font-size: 45px;
+        margin-top: 155px;
+        margin-left: 170px;
+    }
+
+    .contact-icons{
+        margin-top: 20%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .logo-name{
+        margin-top: 5%;
+        margin-left: 1%;
+        width: 195px;
+    }
+
+    .logo{
+        width: 23%;
+    }
+
+    .name{
+        font-size: 17px;
+        letter-spacing: -0.7px;
+    }
+
+    .pdf{
+        margin-top: 16.8%;
+        margin-left: 76%;
+    }
+
+    .pdf-icon{
+        font-size: 26px;
+    }
+
+    .menu{
+        margin-top: 10.5%;
+        margin-right: 5%;
+        font-size: 28px;
+        padding: 20px 0 0 20px;
+    }
+
+    .menu-position{
+        margin-left: -120px;
+    }
+
+    .intro-text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .intro-text2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .short-intro {
+        width: 90%;
+        top: 50%;
+        padding: 30px 5px 65px 5px;
+    }
+    .short-intro-text, .short-intro-text2{
+        font-size: 13px;
+    }
+
+    .jobs li{
+        line-height: 130%;
+    }
+
+    .blk, .vf, .ice, .abbott, .nuskin {
+        margin: 10px 0;
+    }
+
+    .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
+        font-size: 11px;
+        width: 300px;
+        height: 500px;
+        padding: .5% 0 .5% .5%;
+    }
+
+    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1 {
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0;
+    }
+
+    .vf-details{
+        height: 365px;
+    }
+
+    .ice-details{
+        height: 230px;
+    }
+
+    .abbott-details{
+        height: 410px;
+    }
+
+    .nuskin-details{
+        height: 440px;
+    }
+
+    .education h2{
+        font-size: 18px;
+    }
+    .education li, .tech li, .language li, .phone, .e-mail, .current-loc, .permit{
+        font-size: 16px;
+    }
+
+    .communication {
+        padding: 0 0 40% 0;
+        height: 650px;
+    }
+
+    .communication li{
+        font-size: 17px;
+    }
+
+    .comm-pics {
+        transform: scale(0.4);
+    }
+
+    .communication h1 {
+        padding: 30px 0 10px 0;
+        width: 250px;
+    }
+
+    .exp-title, .education h1 {
+        letter-spacing: 8px;
+    }
+    .tech h1, .communication h1, .language h1, .contact h1 {
+        letter-spacing: 5px;
+    }
+
+    .contact {
+        height: 300px;
+    }
+
+    .contact-orientation{
+        width: 265px;
+    }
+
+    .phone, .e-mail, .current-loc, .permit{
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .swiss-number{
+        font-size: 14px;
+        margin-top: 0;
+        margin-right: 10px;
+        padding: 0;
+    }
+
+    .map-introduction, .map-experience, .map-education, .map-tech, .map-communication, .map-language, .map-contact{
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+
+    .blk-details,.vf-details, .ice-details, .abbott-details, .nuskin-details {
+        width: 270px;
+        height: 470px;
+    }
+
+    .jobs li{
+        line-height: 120%;
+        letter-spacing: 0;
+        font-size: 10px;
+    }
+
+    .blk-details h1, .vf-details h1, .ice-details h1, .abbott-details h1, .nuskin-details h1 {
+        font-size: 11px;
+        line-height: 150%;
+        letter-spacing: 0;
+    }
+
+    .vf-details{
+        height: 340px;
+    }
+
+    .ice-details{
+        height: 220px;
+    }
+
+    .abbott-details{
+        height: 370px;
+    }
+
+    .nuskin-details{
+        height: 410px;
+    }
+
+    .map-introduction, .map-experience, .map-education, .map-tech, .map-communication, .map-language, .map-contact{
+        font-size: 12px;
+    }
+
+}
