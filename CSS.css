@@ -47,6 +47,7 @@ body {
     border: none;
     position: absolute;
     transform-origin: right;
+    transition-timing-function: ease;
 }
 
 @keyframes animate {
