@@ -48,9 +48,6 @@
         margin-top: 0;
     }
 
-    .react, .javascript{
-        padding: 3%;
-    }
 }
 
 @media only screen and (max-width: 1580px){
@@ -110,11 +107,6 @@
         font-size: 17px;
     }
 
-    .projects{
-        margin-left: 400px;
-        margin-right: 400px;
-    }
-
     .comm-pics{
         justify-content: center;
     }
@@ -171,8 +163,11 @@
     }
 
     .projects{
-        margin-left: 300px;
-        margin-right: 300px;
+        margin-top: 15px;
+    }
+
+    .react, .javascript{
+        padding: 1.5%;
     }
 
     .comm-pics{
@@ -338,11 +333,6 @@
         margin-top: 3px;
     }
 
-    .projects{
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-
     .comm-pics{
         transform: scale(0.75)
     }
@@ -434,6 +424,20 @@
     .education h1, .tech h1, .communication h1, .language h1, .contact h1 {
         font-size: 45px;
     }
+
+    .projects{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+        margin-top: 15px;
+    }
+
+   .react, .javascript{
+       margin-top: 20px;
+       margin-bottom: 20px;
+       padding: 6% 0% 6% 0%;
+   }
 
     .tech{
         padding: 0 0 55px 0;
@@ -576,10 +580,6 @@
         padding: 44px 65px 44px 65px;
     }
 
-    .projects{
-        margin-left: 130px;
-        margin-right: 130px;
-    }
 
     .tech h1 {
         padding: 65px 30px 65px 30px;
@@ -663,11 +663,6 @@
         font-size: 14px;
         margin-top: 4%;
         line-height: 150%;
-    }
-
-    .projects{
-         margin-left: 100px;
-         margin-right: 100px;
     }
 
     .comm-pics {
@@ -763,10 +758,6 @@
         margin-top: 6%;
     }
 
-    .projects{
-        margin-left: 50px;
-        margin-right: 50px;
-    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -915,11 +906,6 @@
     }
     .education li{
         font-size: 18px;
-    }
-
-    .projects{
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .tech h1 {
@@ -1412,11 +1398,6 @@
         font-size: 16px;
     }
 
-    .projects{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
     .communication {
         padding: 0 0 40% 0;
         height: 650px;
@@ -1504,13 +1485,22 @@
         height: 410px;
     }
 
-    .projects{
-        margin-left: 0;
-        margin-right: 0;
-    }
-
     .map-introduction, .map-experience, .map-education, .map-tech, .map-communication, .map-language, .map-contact{
         font-size: 12px;
     }
 
+}
+
+@media only screen and (max-width: 285px) {
+    .projects {
+        width: 220px;
+        margin-top: 15px;
+        margin-left: -1%;
+    }
+
+    .react, .javascript {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 5% 0% 5% 0%;
+    }
 }
