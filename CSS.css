@@ -129,7 +129,7 @@ body {
 .short-intro{
     opacity: 0;
     visibility: hidden;
-    transition: opacity 2s, box-shadow 1s;
+    transition: opacity 1s, box-shadow 0.5s;
     border-radius: 10px;
     position: absolute;
     background-color: grey;
@@ -144,7 +144,7 @@ body {
 }
 
 .short-intro h1{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .short-intro:hover{
@@ -154,9 +154,13 @@ body {
 .short-intro-text{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 180%;
+    font-size: 18px;
+    line-height: 130%;
     margin-top: 2%;
+}
+
+.short-intro-text p{
+    margin: 25px;
 }
 
 .short-intro-text2{
@@ -172,7 +176,7 @@ body {
     position: absolute;
     bottom: 20px;
     left: 47%;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: bold;
     color: #e9e9e9;
     border-radius: 3px;
@@ -301,7 +305,8 @@ body {
 
 .logo{
     width: 23%;
-    border:3px solid blueviolet;
+    border: 3px solid white;
+    /*border:3px solid blueviolet;*/
     padding: 0.2%;
     border-radius: 50%;
     cursor: pointer;
@@ -469,15 +474,16 @@ body {
 .content{
     width: 400px;
     position: relative;
-    top: 2.5%;
-    left: 2.5%;
+    top: 3.5%;
+    left: 1.5%;
 }
 
 .content h3{
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 500;
     color: white;
+    letter-spacing: 2px;
 }
 
 .promo-content {
@@ -500,13 +506,13 @@ body {
 .promo-title {
     display: inline-block;
     padding: .8em 1.5em;
-    font-size: 2em;
+    font-size: 2.5em;
     background: hsla(0, 0%, 100%, .75);
 }
 
 .promo-lede {
-    padding: .8em 1.5em .8em 2.5em;
-    font-size: 1.8em;
+    padding: .8em 1.5em .8em 2em;
+    font-size: 2.4em;
     color: #FFFCED;
     text-shadow: 1px 1px 3px hsla(277, 47%, 40%, .75);
     background: hsla(277, 47%, 66%, .75);
@@ -528,12 +534,17 @@ body {
 .intro-text{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 21px;
+    font-size: 25px;
     color: #4e4e4e;
-    line-height: 180%;
+    line-height: 130%;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: -20px;
+    margin-top: -28px;
+    margin-bottom: -18px;
+}
+
+.intro-text p{
+    margin: 30px;
 }
 
 .intro-text2{
@@ -601,7 +612,7 @@ body {
 }
 
 .blk{
-    padding: 40px 41px 40px 41px;
+    padding: 40px 40px 40px 40px;
 }
 
 .ice{
@@ -613,11 +624,11 @@ body {
 }
 
 .vf{
-    padding: 40px 37px 40px 39px;
+    padding: 40px 39px 40px 39px;
 }
 
 .nuskin{
-    padding: 38.5px 45.5px 39.5px 45.5px;
+    padding: 38.5px 40px 39.5px 40px;
 }
 
 .blk img{
@@ -657,16 +668,16 @@ body {
 }
 
 .abbott img{
-    width: 155px;
-    height: 120px;
+    width: 150px;
+    height: 130px;
     flex-shrink: 0;
 }
 
 .nuskin img{
-    width: 130px;
+    width: 160px;
     height: 90px;
     margin-top: 8%;
-    margin-bottom: 13%;
+    margin-bottom: 10%;
     flex-shrink: 0;
 }
 
