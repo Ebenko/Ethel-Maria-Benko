@@ -48,6 +48,11 @@
         margin-top: 0;
     }
 
+    .pic-middle{
+        width: 70%;
+        height: 90vh;
+    }
+
 }
 
 @media only screen and (max-width: 1580px){
@@ -111,6 +116,11 @@
         justify-content: center;
     }
 
+    .pic-middle{
+        width: 85%;
+        height: 90vh;
+    }
+
     .intro-text{
         margin-top: 15px;
     }
@@ -151,7 +161,7 @@
     }
 
     .nuskin{
-        padding: 58px 69px 58px 69px;
+        padding: 63px 69px 63px 69px;
     }
 
     .ice{
@@ -170,9 +180,13 @@
         padding: 1.5%;
     }
 
-    .comm-pics{
-        transform: scale(0.9)
+    .pic-middle{
+        width: 85%;
+        height: 90vh;
     }
+    /*.comm-pics{
+        transform: scale(0.9)
+    }*/
 
     .card-icon-link:hover{
         border: 1px solid white;
@@ -248,16 +262,23 @@
         margin-right: 10%;
     }
 
+    /*
     .comm-pics{
         transform: scale(0.8)
     }
 
-    .communication h1{
-        margin-top: -10px;
-    }
-
     .communication {
         padding: 70px 50px 20px 50px;
+    }
+    */
+
+    .pic-middle{
+        width: 90%;
+        height: 100vh;
+    }
+
+    .communication h1{
+        margin-top: -10px;
     }
 
     .language ul{
@@ -298,9 +319,9 @@
         margin-top: -15px;
     }
 
-    .communication {
+    /*.communication {
         padding: 70px 50px 15px 50px;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 1140px){
@@ -333,17 +354,18 @@
         margin-top: 3px;
     }
 
-    .comm-pics{
+    /*.comm-pics{
         transform: scale(0.75)
-    }
+    }*/
 
 }
 
 @media only screen and (max-width: 1040px){
 
+    /*
     .comm-pics{
         transform: scale(0.7)
-    }
+    }*/
 
     .intro-text2{
         margin-left: 12%;
@@ -420,16 +442,22 @@
         height: 580px;
     }
 
+    /*
     .comm-pics {
         transform: scale(0.6)
-    }
+    }*/
 
     .communication h1{
         margin-top: 0;
     }
 
     .communication {
-        padding: 60px 50px 10px 50px;
+        padding: 0px 0 0px 0;
+    }
+
+    .pic-middle{
+        width: 100%;
+        height: 85vh;
     }
 
     .exp-title {
@@ -443,7 +471,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 220px;
+        width: 280px;
         margin-top: 15px;
     }
 
@@ -456,6 +484,11 @@
     .tech{
         padding: 0 0 55px 0;
         margin: 0;
+    }
+
+    .tech li{
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
     .tech h1{
@@ -553,7 +586,7 @@
     }
 
     .blk{
-        padding: 40px 42.5px 40px 42.5px;
+        padding: 40px 44px 40px 44px;
     }
 
     .vf{
@@ -569,7 +602,7 @@
     }
 
     .nuskin{
-        padding: 44px 65px 44px 65px;
+        padding: 44px 55px 44px 55px;
     }
 
 
@@ -577,9 +610,9 @@
         padding: 65px 30px 65px 30px;
     }
 
-    .comm-pics {
+    /*.comm-pics {
         transform: scale(0.5);
-    }
+    }*/
 
     .communication h1{
         width: 650px;
@@ -657,9 +690,9 @@
         line-height: 150%;
     }
 
-    .comm-pics {
+    /*.comm-pics {
         transform: scale(0.4);
-    }
+    }*/
 
     .back-btn2 {
         font-size: 15px;
@@ -728,6 +761,16 @@
         width: 530px;
     }
 
+    .communication {
+        padding: 140px 0 140px 0;
+    }
+
+    .pic-middle{
+        width: 100%;
+        height: 50vh;
+    }
+
+
     .exp-title, .education h1 {
         letter-spacing: 9px;
     }
@@ -752,6 +795,11 @@
         margin-left: 11%;
         margin-right: 11%;
         margin-top: 6%;
+    }
+
+    .tech li{
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
 }
@@ -876,6 +924,10 @@
         font-size: 12px;
     }
 
+    .nuskin{
+        padding: 44px 54px 44px 54px;
+    }
+
     .back-btn3 , .back-btn4, .back-btn5 , .back-btn6, .back-btn7, .back-btn8{
         bottom: 5%;
         left: 47%;
@@ -912,22 +964,37 @@
         font-size: 18px;
     }
 
+    /*
     .comm-pics {
         flex-wrap: wrap;
         align-items: center;
         transform: scale(0.6);
     }
 
-    .communication {
+        .communication {
         padding: 0 0 0 0;
         height: auto;
+    }
+
+        .communication ul{
+        padding: 10px 30px 0 30px;
+    }
+    */
+
+    .communication {
+        padding: 140px 0 140px 0;
+    }
+
+    .pic-middle{
+        width: 100%;
+        height: 40vh;
     }
 
     .communication h1 {
         font-size: 32px;
         width: 440px;
-        margin-bottom: 90px;
-        margin-top: -100px;
+        margin-bottom: 30px;
+        margin-top: -150px;
     }
 
     .comm-text{
@@ -937,10 +1004,6 @@
     .communication li{
         font-size: 19px;
         line-height: 100%;
-    }
-
-    .communication ul{
-        padding: 10px 30px 0 30px;
     }
 
     .language{
@@ -1027,15 +1090,23 @@
         margin-right: 2%;
     }
 
-    .communication {
+    /*.communication {
         padding: 0 20px 60% 20px;
         height: 500px;
+    }*/
+
+    .communication {
+        padding: 150px 0 150px 0;
     }
 
+    .pic-middle{
+        width: 100%;
+        height: 40vh;
+    }
 
     .communication h1 {
         width: 420px;
-        margin-bottom: 90px;
+        margin-bottom: 20px;
         margin-top: -120px;
     }
 }
@@ -1193,6 +1264,22 @@
     }
 
     .communication {
+        padding: 150px 0 150px 0;
+        width: auto;
+    }
+
+    .pic-middle{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .communication h1 {
+        width: 420px;
+        margin-bottom: 20px;
+        margin-top: -120px;
+    }
+
+    /*.communication {
         padding: 0 20px 75% 20px;
         height: 450px;
     }
@@ -1205,7 +1292,7 @@
         font-size: 25px;
         padding: 30px 0 20px 0;
         width: 360px;
-    }
+    }*/
 
     .communication ul{
         padding: 10px 10px 10px 10px;
@@ -1269,8 +1356,23 @@
         font-size: 12px;
     }
 
-    .communication h1 {
+    /*.communication h1 {
         width: 320px;
+    }*/
+
+    .communication {
+        padding: 160px 0 160px 0;
+    }
+
+    .pic-middle{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .communication h1 {
+        width: 420px;
+        margin-bottom: 20px;
+        margin-top: -120px;
     }
 
     .communication ul{
@@ -1394,22 +1496,38 @@
         font-size: 16px;
     }
 
-    .communication {
+    /*.communication {
         padding: 0 0 40% 0;
         height: 650px;
     }
 
-    .communication li{
-        font-size: 17px;
-    }
-
-    .comm-pics {
+        .comm-pics {
         transform: scale(0.4);
     }
 
     .communication h1 {
         padding: 30px 0 10px 0;
         width: 250px;
+    }
+    */
+
+    .communication li{
+        font-size: 17px;
+    }
+
+    .communication {
+        padding: 160px 0 160px 0;
+    }
+
+    .pic-middle{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .communication h1 {
+        width: 420px;
+        margin-bottom: 20px;
+        margin-top: -120px;
     }
 
     .exp-title, .education h1 {

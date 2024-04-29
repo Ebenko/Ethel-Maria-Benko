@@ -539,12 +539,12 @@ body {
     line-height: 130%;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: -28px;
+    margin-top: -10px;
     margin-bottom: -18px;
 }
 
 .intro-text p{
-    margin: 30px;
+    margin: 0 30px 30px 30px;
 }
 
 .intro-text2{
@@ -612,7 +612,7 @@ body {
 }
 
 .blk{
-    padding: 40px 40px 40px 40px;
+    padding: 39px 40px 39px 40px;
 }
 
 .ice{
@@ -620,7 +620,7 @@ body {
 }
 
 .abbott{
-    padding: 43px 43px 42.5px 43px;
+    padding: 39px 43px 39px 43px;
 }
 
 .vf{
@@ -628,7 +628,7 @@ body {
 }
 
 .nuskin{
-    padding: 38.5px 40px 39.5px 40px;
+    padding: 39px 40px 40px 40px;
 }
 
 .blk img{
@@ -772,7 +772,7 @@ li{
 
 .edu-sub{
     line-height: 180%;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .education ul{
@@ -781,18 +781,23 @@ li{
 }
 
 .education li{
-    margin-top: 2px;
+    margin-top: 1px;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
+    letter-spacing: 0.5px;
     list-style-type: none;
 }
 
+.education h2{
+    font-size: 26px;
+}
 .projects{
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+    font-size: 22px;
 }
 
 .projects a{
@@ -807,7 +812,13 @@ li{
     transition: opacity .3s,  box-shadow .5s;
     margin: 15px;
     padding: 1%;
-    width: 200px;
+    width: 250px;
+}
+
+.react-text, .js-text{
+    width: auto;
+    align-items: center;
+    padding: 0;
 }
 
 .react:hover, .javascript:hover{
@@ -834,12 +845,19 @@ li{
 
 .tech li{
     list-style-type: none;
-    margin-top: 5px;
-    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 35px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #4e4e4e;
+    /*line-height: 20px;*/
 }
 
 .communication{
-    padding: 50px;
+    padding: auto;
+    /*background: #4e4e4e;*/
     background: rgba(136, 99, 159, 0.58);
     width: auto;
     height: auto;
@@ -856,10 +874,20 @@ li{
 }
 
 .comm-pics{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 1%;
-    margin-right: 1%;
+    /*display: flex;
+    justify-content: space-between;*/
+    margin-left: 0; /*0%*/
+    margin-right: 0; /*0%*/
+}
+
+.pic-middle{
+    display: block;
+    opacity: .1;
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    /*position: relative;*/
+    background-size: cover;
 }
 
 .pic-left{
@@ -881,23 +909,25 @@ li{
     font-size: 55px;
     letter-spacing: 10px;
     color: white;
-    margin-top: 10px;
+    margin-top: -5px;
+    margin-bottom: 20px;
     background: radial-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.01), transparent);
     padding: 0;
     width: 750px;
 }
 
 .communication li{
+    font-family: 'Roboto', sans-serif;
     list-style-type: none;
-    margin-top: 5px;
-    font-size: 22px;
+    margin-top: 20px;
+    font-size: 26px;
     color: white;
 }
 
 .language{
     height: auto;
     text-align: center;
-    padding: 70px;
+    padding: 60px 70px 60px 70px;
     background-color: white;
 }
 
@@ -914,21 +944,21 @@ li{
 
 .language li{
     list-style-type: none;
-    line-height: 160%;
-    font-size: 20px;
+    margin-top: 25px;
+    font-size: 25px;
 }
 
 .contact{
     height: 400px;
     background-color: #acacac;
-    padding: 50px 0 50px 0;
+    padding: 40px 0 40px 0;
     justify-content: center;
     margin: auto;
     position: relative;
 }
 
 .contact-orientation{
-    width: 390px;
+    width: auto;
     display: inline-block;
     top: 50%;
     left: 50%;
@@ -944,17 +974,18 @@ li{
 }
 
 .contact-info{
-    margin-top: 30px;
+    margin-top: 25px;
+    text-align: center;
 }
 
 .phone, .e-mail, .current-loc, .permit{
     list-style-type: none;
     margin-top: 25px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .swiss-number{
-    text-align: right;
+    /*text-align: right;*/
     list-style-type: none;
     font-size: 20px;
     margin-top: 0;
